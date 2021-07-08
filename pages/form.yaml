@@ -1,0 +1,83 @@
+id: form
+type: PageHeaderMenu
+properties:
+  title: Submit edits to the Who's Who list.
+layout:
+  contentJustify: center
+blocks:
+  - id: cover
+    type: Card
+    layout:
+      contentGutter: 15
+    blocks:
+      - id: title
+        type: Title
+        properties:
+          content: Submit edits to the Who's Who list.
+          level: 1
+          style:
+            text-align: center
+            font-family: Fredoka One
+          underline: true
+      - id: person_name
+        type: TextInput
+        required: true
+        properties:
+          title: Name
+      - id: person_institution
+        type: TextInput
+        required: true
+        properties:
+          title: Institution
+      - id: person_position
+        type: ButtonSelector
+        required: true
+        properties:
+          title: Position
+          options:
+            - Grad
+            - Fellow
+            - Postdoc
+            - Assistant Professor
+            - Associate Professor
+            - Professor
+            - Research Scientist
+      - id: person_email
+        type: TextInput
+        required: true
+        properties:
+          title: Email
+      - id: person_website
+        type: TextInput
+        properties:
+          title: Website
+      - id: person_twitter
+        type: TextInput
+        properties:
+          title: Twitter
+      - id: reset_button
+        type: Button
+        layout:
+          span: 12
+        properties:
+          block: true
+          title: Reset
+          type: default
+          icon: ClearOutlined
+        events:
+          onClick:
+            - id: reset
+              type: Reset
+      - id: submit_button
+        type: Button
+        layout:
+          span: 12
+        properties:
+          block: true
+          title: Submit
+          type: primary
+          icon: SaveOutlined
+        events:
+          onClick:
+            - id: validate
+              type: Validate

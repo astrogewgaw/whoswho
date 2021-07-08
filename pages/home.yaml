@@ -1,0 +1,56 @@
+id: home
+type: PageHeaderMenu
+properties:
+  title: Who's Who
+layout:
+  contentJustify: center
+blocks:
+  - id: cover
+    type: Card
+    layout:
+      contentGutter: 15
+    blocks:
+      - id: title
+        type: Title
+        properties:
+          content: Who's Who
+          level: 1
+          style:
+            text-align: center
+            font-family: Fredoka One
+          underline: true
+      - id: badges
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+            font-family: Space Mono
+          content: |
+            ![License][license]
+            [![Gitmoji][gitmoji-badge]][gitmoji]
+
+            [gitmoji]: https://gitmoji.dev
+            [whoswho]: https://astrogewgaw.com/whoswho
+            [license]: https://img.shields.io/badge/License-MIT-green.svg
+            [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square
+      - id: subtitle
+        type: Title
+        properties:
+          content: A list of astrochemists 🧪 🌌 from across the globe 🌏 !
+          level: 3
+          style:
+            text-align: center
+            font-family: Space Mono
+      - id: description
+        type: Markdown
+        properties:
+          style:
+            text-align: justify
+            font-family: Space Mono
+          content: |
+            Started in the middle of the pandemic in 2020, this project hopes to become a
+            comprehensive and updated database of astrochemists from across the globe. As
+            of July 2021, the list has more than 400 names and counting! This database has
+            two main aims: to make the astrochemical community more accessible to newcomers
+            by allowing them to contact its members easily for help and advice, and to allow
+            the astrochemical community to connect more easily with itself.

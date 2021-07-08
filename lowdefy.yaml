@@ -1,0 +1,23 @@
+name: whoswho
+lowdefy: 3.18.1
+licence: MIT License
+
+menus:
+  - id: main_menu
+    links:
+      - id: home_menu
+        type: MenuLink
+        pageId: home
+        properties:
+          title: Home
+          icon: HomeOutlined
+      - id: form_menu
+        type: MenuLink
+        pageId: form
+        properties:
+          title: Submit Edit
+          icon: FormOutlined
+
+pages:
+  - _ref: pages/home.yaml
+  - _ref: pages/form.yaml
