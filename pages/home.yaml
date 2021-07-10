@@ -1,5 +1,19 @@
 id: home
 type: PageHeaderMenu
+requests:
+  - id: get_data
+    type: GoogleSheetGetMany
+    connectionId: data_sheet
+    properties:
+      options:
+        skip:
+          _product:
+            - _state: page_size
+            - _subtract:
+                - _state: page_number
+                - 1
+        limit:
+          _state: page_size
 properties:
   title: Who's Who
 layout:
@@ -71,3 +85,8 @@ blocks:
       # Ag-Grid is a feature-rich javascript grid and table library. It comes
       # with a lot of functionality, so hopefully adopting it from the get-go
       # will help me avoid future problems.
+
+      - id: whoswho_data
+        type: AgGridAlpine
+        properties:
+          rowData:

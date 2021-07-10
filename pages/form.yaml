@@ -3,7 +3,7 @@ type: PageHeaderMenu
 requests:
   - id: save_data
     type: GoogleSheetAppendOne
-    connectionId: google_sheet
+    connectionId: edit_sheet
     properties:
       row:
         person_name:
@@ -48,18 +48,10 @@ blocks:
         properties:
           title: Institution
       - id: person_position
-        type: ButtonSelector
+        type: TextInput
         required: true
         properties:
           title: Position
-          options:
-            - Grad
-            - Fellow
-            - Postdoc
-            - Assistant Professor
-            - Associate Professor
-            - Professor
-            - Research Scientist
       - id: person_email
         type: TextInput
         required: true
