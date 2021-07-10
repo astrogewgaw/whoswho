@@ -10,6 +10,8 @@ blocks:
     layout:
       contentGutter: 15
     blocks:
+      
+      # The page title.
       - id: title
         type: Title
         properties:
@@ -19,6 +21,10 @@ blocks:
             text-align: center
             font-family: Fredoka One
           underline: true
+
+      # The badges. These are the same as in the GitHub repository. I have used
+      # the Markdown block for them, because it is quite convenient to add them
+      # this way.
       - id: badges
         type: Markdown
         properties:
@@ -33,6 +39,8 @@ blocks:
             [whoswho]: https://astrogewgaw.com/whoswho
             [license]: https://img.shields.io/badge/License-MIT-green.svg
             [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square
+      
+      # The subtitle.
       - id: subtitle
         type: Title
         properties:
@@ -41,6 +49,10 @@ blocks:
           style:
             text-align: center
             font-family: Space Mono
+      
+      # A short description. This discusses what the project is about and what
+      # motivated me to make it. I have used the Markdown block for this too
+      # (since it is pretty simple and convenient).
       - id: description
         type: Markdown
         properties:
@@ -54,3 +66,8 @@ blocks:
             two main aims: to make the astrochemical community more accessible to newcomers
             by allowing them to contact its members easily for help and advice, and to allow
             the astrochemical community to connect more easily with itself.
+
+      # The list. I am using the Ag-Grid block provided by lowdefy for this.
+      # Ag-Grid is a feature-rich javascript grid and table library. It comes
+      # with a lot of functionality, so hopefully adopting it from the get-go
+      # will help me avoid future problems.

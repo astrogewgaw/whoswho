@@ -2,6 +2,19 @@ name: whoswho
 lowdefy: 3.18.1
 licence: MIT License
 
+connections:
+  - id: google_sheet
+    type: GoogleSheet
+    properties:
+      client_email:
+        _secret: SHEETS_CLIENT_EMAIL
+      private_key:
+        _base64.decode:
+          _secret: SHEETS_PRIVATE_KEY
+      spreadsheetId: 1IfzXUU9U4PM5cx3ZbSKk1ye1rPDAF1eqU75wt01_MQM
+      sheetId: '892548616'
+      write: true
+
 menus:
   - id: main_menu
     links:

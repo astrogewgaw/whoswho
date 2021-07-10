@@ -1,5 +1,23 @@
 id: form
 type: PageHeaderMenu
+requests:
+  - id: save_data
+    type: GoogleSheetAppendOne
+    connectionId: google_sheet
+    properties:
+      row:
+        person_name:
+          _state: person_name
+        person_institution:
+          _state: person_institution
+        person_position:
+          _state: person_position
+        person_email:
+          _state: person_email
+        person_website:
+          _state: person_website
+        person_twitter:
+          _state: person_twitter
 properties:
   title: Submit edits to the Who's Who list.
 layout:
@@ -81,3 +99,8 @@ blocks:
           onClick:
             - id: validate
               type: Validate
+            - id: save_data
+              type: Request
+              params: save_data
+            - id: reset
+              type: Reset
