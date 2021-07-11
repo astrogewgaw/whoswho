@@ -3,7 +3,7 @@ type: PageHeaderMenu
 requests:
   - id: save_data
     type: GoogleSheetAppendOne
-    connectionId: edit_sheet
+    connectionId: form_sheet
     properties:
       row:
         person_name:
@@ -74,6 +74,8 @@ blocks:
           title: Reset
           type: default
           icon: ClearOutlined
+          style:
+            font-family: Fredoka One
         events:
           onClick:
             - id: reset
@@ -87,6 +89,8 @@ blocks:
           title: Submit
           type: primary
           icon: SaveOutlined
+          style:
+            font-family: Fredoka One
         events:
           onClick:
             - id: validate

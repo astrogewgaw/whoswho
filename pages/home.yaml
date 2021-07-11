@@ -1,19 +1,5 @@
 id: home
 type: PageHeaderMenu
-requests:
-  - id: get_data
-    type: GoogleSheetGetMany
-    connectionId: data_sheet
-    properties:
-      options:
-        skip:
-          _product:
-            - _state: page_size
-            - _subtract:
-                - _state: page_number
-                - 1
-        limit:
-          _state: page_size
 properties:
   title: Who's Who
 layout:
@@ -24,69 +10,92 @@ blocks:
     layout:
       contentGutter: 15
     blocks:
-      
-      # The page title.
-      - id: title
-        type: Title
-        properties:
-          content: Who's Who
-          level: 1
-          style:
-            text-align: center
-            font-family: Fredoka One
-          underline: true
 
-      # The badges. These are the same as in the GitHub repository. I have used
-      # the Markdown block for them, because it is quite convenient to add them
-      # this way.
-      - id: badges
-        type: Markdown
-        properties:
-          style:
-            text-align: center
-            font-family: Space Mono
-          content: |
-            ![License][license]
-            [![Gitmoji][gitmoji-badge]][gitmoji]
-
-            [gitmoji]: https://gitmoji.dev
-            [whoswho]: https://astrogewgaw.com/whoswho
-            [license]: https://img.shields.io/badge/License-MIT-green.svg
-            [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square
-      
-      # The subtitle.
-      - id: subtitle
-        type: Title
-        properties:
-          content: A list of astrochemists 🧪 🌌 from across the globe 🌏 !
-          level: 3
-          style:
-            text-align: center
-            font-family: Space Mono
-      
-      # A short description. This discusses what the project is about and what
-      # motivated me to make it. I have used the Markdown block for this too
-      # (since it is pretty simple and convenient).
-      - id: description
+      - id: intro
         type: Markdown
         properties:
           style:
             text-align: justify
-            font-family: Space Mono
-          content: |
-            Started in the middle of the pandemic in 2020, this project hopes to become a
-            comprehensive and updated database of astrochemists from across the globe. As
-            of July 2021, the list has more than 400 names and counting! This database has
-            two main aims: to make the astrochemical community more accessible to newcomers
-            by allowing them to contact its members easily for help and advice, and to allow
-            the astrochemical community to connect more easily with itself.
+            font-family: Fredoka One
+          skipHtml: true
+          content:
+            _ref: README.md
 
       # The list. I am using the Ag-Grid block provided by lowdefy for this.
       # Ag-Grid is a feature-rich javascript grid and table library. It comes
       # with a lot of functionality, so hopefully adopting it from the get-go
       # will help me avoid future problems.
-
-      - id: whoswho_data
+      
+      - id: table
         type: AgGridAlpine
         properties:
+          pagination: true
           rowData:
+            _ref: public/data.json
+          defaultColDef:
+            sortable: true
+            resizable: true
+            filter: true
+          columnDefs:
+            - headerName: Name
+              field: Name
+              width: 350
+            - headerName: Institution
+              field: Institution
+              width: 350
+            - headerName: Position
+              field: Position
+              width: 350
+            - headerName: Email
+              field: Email
+              width: 350
+              cellRenderer:
+                  # Creates a function which wraps the row data in an <a/> tag.
+                  _function:
+                    __string.concat:
+                      - '<a href="mailto:'
+                      - __args: 0.data.Email
+                      - '">'
+                      - __args: 0.data.Email
+                      - </a>
+            - headerName: Website
+              field: Website
+              width: 350
+              cellRenderer:
+                  # Creates a function which wraps the row data in an <a/> tag.
+                  _function:
+                    __string.concat:
+                      - '<a href="'
+                      - __args: 0.data.Website
+                      - '">'
+                      - __args: 0.data.Website
+                      - </a>
+            - headerName: Twitter
+              field: Twitter
+              width: 200
+              cellRenderer:
+                  # Creates a function which wraps the row data in an <a/> tag.
+                  _function:
+                    __string.concat:
+                      - '<a href="https://twitter.com/'
+                      - __args: 0.data.Twitter
+                      - '">'
+                      - __args: 0.data.Twitter
+                      - </a>
+      
+      - id: download_button
+        type: Button
+        properties:
+          block: true
+          title: "Download as CSV"
+          type: primary
+          icon: SaveOutlined
+          style:
+            font-family: Fredoka One
+        events:
+          onClick:
+            - id: download
+              type: CallMethod
+              params:
+                blockId: table
+                method: exportDataAsCsv
