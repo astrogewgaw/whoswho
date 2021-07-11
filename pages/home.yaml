@@ -16,7 +16,6 @@ blocks:
         properties:
           style:
             text-align: justify
-            font-family: Fredoka One
           skipHtml: true
           content:
             _ref: README.md
@@ -90,8 +89,6 @@ blocks:
           title: "Download as CSV"
           type: primary
           icon: SaveOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: download
@@ -99,3 +96,12 @@ blocks:
               params:
                 blockId: table
                 method: exportDataAsCsv
+
+      - id: footer
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+          skipHtml: true
+          content: |
+            Copyright &#xa9; 2021 Ujjwal Panda

@@ -7,7 +7,7 @@ types:
     url: https://blocks-cdn.lowdefy.com/v3.12.3/blocks-aggrid/meta/AgGridAlpine.json
 
 connections:  
-  - id: form_sheet
+  - id: edit_sheet
     type: GoogleSheet
     properties:
       client_email:
@@ -28,13 +28,13 @@ menus:
         properties:
           title: Home
           icon: HomeOutlined
-      - id: form_menu
+      - id: edit_menu
         type: MenuLink
-        pageId: form
+        pageId: edit
         properties:
           title: Submit Edit
           icon: FormOutlined
 
 pages:
   - _ref: pages/home.yaml
-  - _ref: pages/form.yaml
+  - _ref: pages/edit.yaml

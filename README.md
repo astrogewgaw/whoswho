@@ -1,5 +1,7 @@
 # Who's Who?
 
+[![Netlify Status][deploy-status]][deploys]
+
 ![License][license]
 [![Lowdefy][lowdefy-badge]][lowdefy]
 [![Gitmoji][gitmoji-badge]][gitmoji]
@@ -19,9 +21,11 @@ If you would like to help out in some other way, feel free to contact [**me**][m
 [me]: https://astrogewgaw.com
 [gitmoji]: https://gitmoji.dev
 [lowdefy]: https://lowdefy.com
-[whoswho]: https://whoswho.astrochem.com
-[edits]: https://whoswho.astrochem.com/edits
+[whoswho]: https://whoswho.astrogewgaw.com
+[edits]: https://whoswho.astrogewgaw.com/edit
 [repo]: https://github.com/astrogewgaw/whoswho
+[deploys]: https://app.netlify.com/sites/whoswho/deploys
 [license]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
 [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
+[deploy-status]: https://api.netlify.com/api/v1/badges/ebd6006f-31b2-4fb4-bde0-b358aee83986/deploy-status
 [lowdefy-badge]: https://img.shields.io/static/v1?label=Made+with&message=Lowdefy&color=black&style=for-the-badge
