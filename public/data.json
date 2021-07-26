@@ -232,10 +232,10 @@
         "Twitter":""
     },
     {
-        "Name":"Ashley Walker",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
+        "Name":"Ashley Lindal\u00eda Walker",
+        "Institution":"Howard University",
+        "Position":"PhD student",
+        "Email":"awalke49@csu.edu",
         "Website":"",
         "Twitter":"@That_Astro_Chic"
     },
@@ -744,6 +744,14 @@
         "Twitter":""
     },
     {
+        "Name":"Eleonora Bianchi",
+        "Institution":"Univ. Grenoble Alpes, CNRS, IPAG",
+        "Position":"Postdoc",
+        "Email":"eleonora.bianchi@univ-grenoble-alpes.fr",
+        "Website":"",
+        "Twitter":""
+    },
+    {
         "Name":"Ella Sciamma - O' Brien",
         "Institution":"NASA AMES",
         "Position":"Researcher",
@@ -912,6 +920,14 @@
         "Twitter":""
     },
     {
+        "Name":"Giacomo Mulas",
+        "Institution":"INAF, Cagliari OAC",
+        "Position":"Senior scientist",
+        "Email":"giacomo.mulas@inaf.it",
+        "Website":"",
+        "Twitter":""
+    },
+    {
         "Name":"Gianfranco Vidali",
         "Institution":"College of Arts and Sciences, Syracuse University",
         "Position":"Professor",
@@ -1049,10 +1065,10 @@
     },
     {
         "Name":"Henda Chaabouni",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
+        "Institution":"CY Cergy Paris University. FRANCE",
+        "Position":"Assistante Professor",
+        "Email":"henda.chaabouni@cyu.fr",
+        "Website":"https:\/\/www.cyu.fr\/henda-chaabouni-1",
         "Twitter":""
     },
     {
@@ -1665,8 +1681,8 @@
     },
     {
         "Name":"Ludovic Biennier",
-        "Institution":"Institut de Physique de Rennes, Universit\u00e9 de Rennes 1",
-        "Position":"Researcher",
+        "Institution":"IPR, Universit\u00e9 de Rennes 1",
+        "Position":"Senior Scientist",
         "Email":"ludovic.biennier@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/interlocuteurs\/ludovic-biennier",
         "Twitter":""
@@ -2305,7 +2321,7 @@
     },
     {
         "Name":"Robert Georges",
-        "Institution":"Universit\u00e9 de Rennes 1",
+        "Institution":"IPR, Universit\u00e9 de Rennes 1",
         "Position":"Professor",
         "Email":"robert.georges@univ-rennes1.fr",
         "Website":"",
@@ -2489,7 +2505,7 @@
     },
     {
         "Name":"Shubhadip Chakraborty",
-        "Institution":"Universit\u00e9 de Rennes 1",
+        "Institution":"IPR, Universit\u00e9 de Rennes 1",
         "Position":"Postdoc",
         "Email":"shubhadip.chakraborty@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/interlocuteurs\/shubhadip-chakraborty",
