@@ -1,5 +1,6 @@
 id: edit
 type: PageHeaderMenu
+
 requests:
   - id: save_data
     type: GoogleSheetAppendOne
@@ -18,16 +19,23 @@ requests:
           _state: person_website
         person_twitter:
           _state: person_twitter
+
 properties:
   title: Submit edits to the Who's Who list.
+  style:
+    background-color: black
+
 layout:
   contentJustify: center
+
 blocks:
+  
   - id: cover
     type: Card
     layout:
       contentGutter: 15
     blocks:
+  
       - id: title
         type: Title
         properties:
@@ -35,35 +43,43 @@ blocks:
           level: 1
           style:
             text-align: center
+            font-family: Fredoka One
           underline: true
+  
       - id: person_name
         type: TextInput
         required: true
         properties:
           title: Name
+  
       - id: person_institution
         type: TextInput
         required: true
         properties:
           title: Institution
+  
       - id: person_position
         type: TextInput
         required: true
         properties:
           title: Position
+  
       - id: person_email
         type: TextInput
         required: true
         properties:
           title: Email
+  
       - id: person_website
         type: TextInput
         properties:
           title: Website
+  
       - id: person_twitter
         type: TextInput
         properties:
           title: Twitter
+  
       - id: reset_button
         type: Button
         layout:
@@ -73,10 +89,13 @@ blocks:
           title: Reset
           type: default
           icon: ClearOutlined
+          style:
+            font-family: Fredoka One
         events:
           onClick:
             - id: reset
               type: Reset
+  
       - id: submit_button
         type: Button
         layout:
@@ -86,6 +105,8 @@ blocks:
           title: Submit
           type: primary
           icon: SaveOutlined
+          style:
+            font-family: Fredoka One
         events:
           onClick:
             - id: validate

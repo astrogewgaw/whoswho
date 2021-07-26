@@ -1,10 +1,16 @@
 id: home
 type: PageHeaderMenu
+
 properties:
   title: Who's Who
+  style:
+    background-color: black
+
 layout:
   contentJustify: center
+
 blocks:
+
   - id: cover
     type: Card
     layout:
@@ -16,6 +22,7 @@ blocks:
         properties:
           style:
             text-align: justify
+            font-family: Fredoka One
           skipHtml: true
           content:
             _ref: README.md
@@ -28,6 +35,8 @@ blocks:
       - id: table
         type: AgGridAlpine
         properties:
+          style:
+            font-family: Cantarell
           pagination: true
           rowData:
             _ref: public/data.json
@@ -89,6 +98,8 @@ blocks:
           title: "Download as CSV"
           type: primary
           icon: SaveOutlined
+          style:
+            font-family: Fredoka One
         events:
           onClick:
             - id: download
@@ -96,12 +107,15 @@ blocks:
               params:
                 blockId: table
                 method: exportDataAsCsv
+                args:
+                  - fileName: whoswho.csv
 
       - id: footer
         type: Markdown
         properties:
           style:
             text-align: center
+            font-family: Fredoka One
           skipHtml: true
           content: |
             Copyright &#xa9; 2021 Ujjwal Panda
