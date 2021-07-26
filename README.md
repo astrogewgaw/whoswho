@@ -5,6 +5,8 @@
 [![Netlify Status][deploy-status]][deploys]
 
 ![License][license]
+![Count][count]
+![Last Updated][updated]
 [![Gitmoji][gitmoji-badge]][gitmoji]
 
 ## A list 📝 of astrochemists 🧪 from across the globe 🌏 !
@@ -25,5 +27,7 @@ This project is an open-source, version-controlled contact list for astrochemist
 [repo]: https://github.com/astrogewgaw/whoswho
 [deploys]: https://app.netlify.com/sites/whoswho/deploys
 [license]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
+[count]: https://img.shields.io/badge/Astrochemists-364-blueviolet?style=for-the-badge
 [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
 [deploy-status]: https://api.netlify.com/api/v1/badges/ebd6006f-31b2-4fb4-bde0-b358aee83986/deploy-status
+[updated]: https://img.shields.io/badge/Last%20Updated-Monday%2026%20July,%202021%2006:41:11%20pm%20UTC-purple?style=for-the-badge
