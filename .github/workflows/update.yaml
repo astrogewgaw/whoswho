@@ -31,7 +31,7 @@ jobs:
           git add public/data.json
           git config --global user.name "whoswhobot"
           git config --global user.email "whoswho@example.com"                
-          git commit "Updated whoswho: `date +'%Y-%m-%d %H:%M:%S'`" || true
+          git commit -m "Updated whoswho: `date +'%Y-%m-%d %H:%M:%S'`" || true
         env:
           WHOSWHO_SHEET_URL: ${{ secrets.WHOSWHO_SHEET_URL }}
       # Pushing the changes.
