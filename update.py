@@ -56,3 +56,4 @@ if __name__ == "__main__":
                 updated=updated.replace(" ", "%20").strip(),
             ).strip()
         )
+        f.write("\n")
