@@ -1,20 +1,19 @@
+<div align="center">
+
 # Who's Who?
 
 [![Netlify Status][deploy-status]][deploys]
 
 ![License][license]
-[![Lowdefy][lowdefy-badge]][lowdefy]
 [![Gitmoji][gitmoji-badge]][gitmoji]
 
-## A list 📝 of astrochemists 🧪 🌌 from across the globe 🌏 !
+## A list 📝 of astrochemists 🧪 from across the globe 🌏 !
+
+</div>
 
 <div align="justify">
 
-This list is largely a solo effort by me to compile the contact details of graduate students, postdocs, research scientists, and professors working in the field of astrochemistry. Initially, this was a list I maintained on paper 📄. I always thought of leading a community effort to compile the contacts of astrochemists into a database. I intended to host the database on the web eventually, hoping to help students like myself who have had to scour 🧐 sites day-and-night for these very contacts. I tweeted 🗨️ about this idea last year, and got quite a few excited responses from the astrochemical community on Twitter 🐦. I hosted an initial version of this list on my personal website, but ended up taking it down due to some technical problems. Now, the site is up again, thanks to the lowdefy project 😁 !
-
-Right now the list has about 360 names, but I know there are a lot more astrochemists out there. In order to add them to the list, I need your help. If you work in the field of astrochemistry, or know someone who does, and they are not in the list yet, ➕ add them! This list aims to be up-to-date and comprehensive, and it can only do that with the help of the entire astrochemical community. You can submit your edits [**here**][edits].
-
-If you would like to help out in some other way, feel free to contact [**me**][me] 😁 !
+This project is an open-source, version-controlled contact list for astrochemists across the globe. It started as a hand-written list that I maintained for several years. That all changed last year, when I floated the idea of converting it into a version that would be maintained by the community and hosted on the web. The idea got a lot of appreciation, particularly from fellow astrochemists. A previous version of this list was hosted on my personal website. The development has now shifted to a sub-domain, with the web application being powered by the brilliant [**lowdefy**][lowdefy] framework. The source code, which is just a bunch of YAML files, can be found [*here*][repo]. This project relies heavily on the support of both the open-source and astrochemical communities. If you are a fellow astrochemist yourself, consider adding, editing or updating the list using the form [*here*][edits].
 
 </div>
 
@@ -28,4 +27,3 @@ If you would like to help out in some other way, feel free to contact [**me**][m
 [license]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
 [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
 [deploy-status]: https://api.netlify.com/api/v1/badges/ebd6006f-31b2-4fb4-bde0-b358aee83986/deploy-status
-[lowdefy-badge]: https://img.shields.io/static/v1?label=Made+with&message=Lowdefy&color=black&style=for-the-badge
