@@ -5,9 +5,10 @@
 [![Netlify Status][deploy-status]][deploys]
 
 ![License][license]
+[![Gitmoji][gitmoji-badge]][gitmoji]
+
 ![Count][count]
 ![Last Updated][updated]
-[![Gitmoji][gitmoji-badge]][gitmoji]
 
 ## A list 📝 of astrochemists 🧪 from across the globe 🌏 !
 
