@@ -2,6 +2,10 @@
 
 # Who's Who?
 
+<br/><br/>
+<img src="header.svg" alt="Who's Who?" align="center">
+<br/><br/>
+
 [![Netlify Status][deploy-status]][deploys]
 
 ![License][license]
