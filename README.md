@@ -35,4 +35,4 @@ This project is an open-source, version-controlled contact list for astrochemist
 [count]: https://img.shields.io/badge/Astrochemists-366-blueviolet?style=for-the-badge
 [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
 [deploy-status]: https://api.netlify.com/api/v1/badges/ebd6006f-31b2-4fb4-bde0-b358aee83986/deploy-status
-[updated]: https://img.shields.io/badge/Last%20Updated-Monday%2009%20August,%202021%2001:02:37%20am%20UTC-purple?style=for-the-badge
+[updated]: https://img.shields.io/badge/Last%20Updated-Monday%2016%20August,%202021%2001:01:14%20am%20UTC-purple?style=for-the-badge
