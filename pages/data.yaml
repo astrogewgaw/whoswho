@@ -1,0 +1,145 @@
+id: data
+type: PageHCF
+layout:
+  contentJustify: center
+properties:
+  title: Default
+  style:
+    background-color: black
+
+
+
+blocks:
+
+  - id: main_menu
+    type: Menu
+    style:
+      text-align: center
+      font-family: Fredoka One
+    properties:
+      mode: horizontal
+      links:
+        - id: about_menu
+          type: MenuLink
+          pageId: about
+          properties:
+            title: About
+        - id: data_menu
+          type: MenuLink
+          pageId: data
+          properties:
+            title: Data
+        - id: edits_menu
+          type: MenuLink
+          pageId: edits
+          properties:
+            title: Edits
+        - id: world_map_menu
+          type: MenuLink
+          pageId: world_map
+          properties:
+            title: World Map
+
+  - id: cover
+    type: Card
+    layout:
+      contentGutter: 15
+    blocks:
+      
+      - id: table
+        type: AgGridAlpine
+        properties:
+          style:
+            font-family: Cantarell
+          pagination: true
+          rowData:
+            _ref: public/whoswho.json
+          defaultColDef:
+            sortable: true
+            resizable: true
+            filter: true
+          columnDefs:
+            - headeName: Name
+              field: Name
+              width: 350
+            - headeName: Institution
+              field: Institution
+              width: 350
+            - headeName: Position
+              field: Position
+              width: 350
+            - headeName: Email
+              field: Email
+              width: 350
+              cellRenderer:
+                _function:
+                  __string.concat:
+                    
+                    - '<a href="mailto:'
+                    
+                    - __args: 0.data.Email
+                    - '">'
+                    - __args: 0.data.Email
+                    
+                    - </a>
+                    
+            - headeName: Website
+              field: Website
+              width: 350
+              cellRenderer:
+                _function:
+                  __string.concat:
+                    
+                    - '<a href="'
+                    
+                    - __args: 0.data.Website
+                    - '">'
+                    - __args: 0.data.Website
+                    
+                    - </a>
+                    
+            - headeName: Twitter
+              field: Twitter
+              width: 350
+              cellRenderer:
+                _function:
+                  __string.concat:
+                    
+                    - '<a href="https://twitter.com/'
+                    
+                    - __args: 0.data.Twitter
+                    - '">'
+                    - __args: 0.data.Twitter
+                    
+                    - </a>
+                    
+      
+      - id: download_button
+        type: Button
+        properties:
+          block: true
+          title: "Download as CSV"
+          type: primary
+          icon: SaveOutlined
+          style:
+            font-family: Fredoka One
+        events:
+          onClick:
+            - id: download
+              type: CallMethod
+              params:
+                blockId: table
+                method: exportDataAsCsv
+                args:
+                  - fileName: whoswho.csv
+
+      
+      - id: footer
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+            font-family: Fredoka One
+          skipHtml: true
+          content: |
+            Copyright &#xa9; 2021 Ujjwal Panda

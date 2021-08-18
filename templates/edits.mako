@@ -1,41 +1,24 @@
-id: edit
-type: PageHeaderMenu
+<%inherit file="page.mako"/>
 
+<%!
+    id_ = "edits"
+    title = "Submit edits to Who's Who"
+%>
+
+<%block name="requests">
 requests:
   - id: save_data
     type: GoogleSheetAppendOne
     connectionId: edit_sheet
     properties:
       row:
-        person_name:
-          _state: person_name
-        person_institution:
-          _state: person_institution
-        person_position:
-          _state: person_position
-        person_email:
-          _state: person_email
-        person_website:
-          _state: person_website
-        person_twitter:
-          _state: person_twitter
+      % for field in fields:
+      person_${field.lower()}:
+        _state: person_${field.lower()}
+      % endfor
+</%block>
 
-properties:
-  title: Submit edits to the Who's Who list.
-  style:
-    background-color: black
-
-layout:
-  contentJustify: center
-
-blocks:
-  
-  - id: cover
-    type: Card
-    layout:
-      contentGutter: 15
-    blocks:
-  
+<%block name="contents">
       - id: title
         type: Title
         properties:
@@ -46,39 +29,13 @@ blocks:
             font-family: Fredoka One
           underline: true
   
-      - id: person_name
+      % for field in fields:
+      - id: person_${field.lower()}
         type: TextInput
         required: true
         properties:
-          title: Name
-  
-      - id: person_institution
-        type: TextInput
-        required: true
-        properties:
-          title: Institution
-  
-      - id: person_position
-        type: TextInput
-        required: true
-        properties:
-          title: Position
-  
-      - id: person_email
-        type: TextInput
-        required: true
-        properties:
-          title: Email
-  
-      - id: person_website
-        type: TextInput
-        properties:
-          title: Website
-  
-      - id: person_twitter
-        type: TextInput
-        properties:
-          title: Twitter
+          title: ${field}
+      % endfor
   
       - id: reset_button
         type: Button
@@ -116,3 +73,4 @@ blocks:
               params: save_data
             - id: reset
               type: Reset
+</%block>

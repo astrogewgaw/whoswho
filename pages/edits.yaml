@@ -1,0 +1,155 @@
+id: edits
+type: PageHCF
+layout:
+  contentJustify: center
+properties:
+  title: Submit edits to Who's Who
+  style:
+    background-color: black
+
+
+requests:
+  - id: save_data
+    type: GoogleSheetAppendOne
+    connectionId: edit_sheet
+    properties:
+      row:
+      person_name:
+        _state: person_name
+      person_institution:
+        _state: person_institution
+      person_position:
+        _state: person_position
+      person_email:
+        _state: person_email
+      person_website:
+        _state: person_website
+      person_twitter:
+        _state: person_twitter
+
+
+blocks:
+
+  - id: main_menu
+    type: Menu
+    style:
+      text-align: center
+      font-family: Fredoka One
+    properties:
+      mode: horizontal
+      links:
+        - id: about_menu
+          type: MenuLink
+          pageId: about
+          properties:
+            title: About
+        - id: data_menu
+          type: MenuLink
+          pageId: data
+          properties:
+            title: Data
+        - id: edits_menu
+          type: MenuLink
+          pageId: edits
+          properties:
+            title: Edits
+        - id: world_map_menu
+          type: MenuLink
+          pageId: world_map
+          properties:
+            title: World Map
+
+  - id: cover
+    type: Card
+    layout:
+      contentGutter: 15
+    blocks:
+      
+      - id: title
+        type: Title
+        properties:
+          content: Submit edits to the Who's Who list.
+          level: 1
+          style:
+            text-align: center
+            font-family: Fredoka One
+          underline: true
+  
+      - id: person_name
+        type: TextInput
+        required: true
+        properties:
+          title: Name
+      - id: person_institution
+        type: TextInput
+        required: true
+        properties:
+          title: Institution
+      - id: person_position
+        type: TextInput
+        required: true
+        properties:
+          title: Position
+      - id: person_email
+        type: TextInput
+        required: true
+        properties:
+          title: Email
+      - id: person_website
+        type: TextInput
+        required: true
+        properties:
+          title: Website
+      - id: person_twitter
+        type: TextInput
+        required: true
+        properties:
+          title: Twitter
+  
+      - id: reset_button
+        type: Button
+        layout:
+          span: 12
+        properties:
+          block: true
+          title: Reset
+          type: default
+          icon: ClearOutlined
+          style:
+            font-family: Fredoka One
+        events:
+          onClick:
+            - id: reset
+              type: Reset
+  
+      - id: submit_button
+        type: Button
+        layout:
+          span: 12
+        properties:
+          block: true
+          title: Submit
+          type: primary
+          icon: SaveOutlined
+          style:
+            font-family: Fredoka One
+        events:
+          onClick:
+            - id: validate
+              type: Validate
+            - id: save_data
+              type: Request
+              params: save_data
+            - id: reset
+              type: Reset
+
+      
+      - id: footer
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+            font-family: Fredoka One
+          skipHtml: true
+          content: |
+            Copyright &#xa9; 2021 Ujjwal Panda
