@@ -34,11 +34,11 @@ blocks:
           pageId: edits
           properties:
             title: Edits
-        - id: world_map_menu
+        - id: globe_menu
           type: MenuLink
-          pageId: world_map
+          pageId: globe
           properties:
-            title: World Map
+            title: Globe
 
   - id: cover
     type: Card
@@ -80,12 +80,12 @@ blocks:
             ![Tweeters][tweeters]
 
             [gitmoji]: https://gitmoji.dev
-            [license]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
+            [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
             [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
             [count]: https://img.shields.io/badge/Astrochemists-366-blueviolet?style=for-the-badge
             [tweeters]: https://img.shields.io/badge/Tweeters-51-blue?style=for-the-badge&logo=twitter            
             [contactable]: https://img.shields.io/badge/Contactable-304-darkgreen?style=for-the-badge
-            [updated]: https://img.shields.io/badge/Last%20Updated-Wednesday%2018%20August,%202021%2010:36:56%20am%20UTC-purple?style=for-the-badge
+            [updated]: https://img.shields.io/badge/Last%20Updated-Wednesday%2018%20August,%202021%2008:20:46%20pm%20UTC-purple?style=for-the-badge
       
       - id: subtitle
         type: Title

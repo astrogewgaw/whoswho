@@ -1,4 +1,4 @@
-id: world_map
+id: globe
 type: PageHCF
 layout:
   contentJustify: center
@@ -34,11 +34,11 @@ blocks:
           pageId: edits
           properties:
             title: Edits
-        - id: world_map_menu
+        - id: globe_menu
           type: MenuLink
-          pageId: world_map
+          pageId: globe
           properties:
-            title: World Map
+            title: Globe
 
   - id: cover
     type: Card

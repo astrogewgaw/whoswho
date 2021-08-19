@@ -80,4 +80,4 @@ pages:
   - _ref: pages/about.yaml
   - _ref: pages/data.yaml
   - _ref: pages/edits.yaml
-  - _ref: pages/world_map.yaml
+  - _ref: pages/globe.yaml

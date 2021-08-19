@@ -40,7 +40,7 @@
             ![Tweeters][tweeters]
 
             [gitmoji]: https://gitmoji.dev
-            [license]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge
+            [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
             [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
             [count]: https://img.shields.io/badge/Astrochemists-${count | u}-blueviolet?style=for-the-badge
             [tweeters]: https://img.shields.io/badge/Tweeters-${tweeters | u}-blue?style=for-the-badge&logo=twitter            
