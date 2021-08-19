@@ -1,149 +1,112 @@
+#!/usr/bin/env python
+
 """
-Copyright (c) 2021 Ujjwal Panda
 """
 
-import json
+import sys
+import click
 import arrow  # type: ignore
+import invoke  # type: ignore
 import pandas as pd  # type: ignore
 
 from pathlib import Path
-from textwrap import dedent
+from rich.panel import Panel
+from rich.console import Console
+from rich.markdown import Markdown
+from mako.template import Template  # type: ignore
 from mako.lookup import TemplateLookup  # type: ignore
 
 
-here = Path(__file__).parent.resolve()
+version = "1.0.0"
+console = Console()
+weblink = "https://whoswho.astrogewgaw.com"
 
 
-def serve(name: str, **kwargs) -> str:
-
-    """"""
-
-    lookup = TemplateLookup(directories=[str(here / "templates")])
-    template = lookup.get_template(name)
-    pages = [_.name.replace(".yaml", "") for _ in (here / "pages").glob("*.yaml")]
-    return template.render(pages=pages, **kwargs)
-
-
-def download() -> pd.DataFrame:
+def render_help():
 
     """"""
 
-    df = pd.read_csv(
-        dedent(
-            """
-            https://
-            docs.google.com/
-            spreadsheets/
-            d/
-            e/
-            2PACX-
-            1vQkbCd9kEllq5SpaH13VxJEtw1k7eN3VdFTQetTP7udL10I0U-
-            erve4IqotzOhDlp9ug-
-            7ANoFqGpka/
-            pub?
-            gid=690927575
-            &single=true
-            &output=csv
-            """
+    return Panel(
+        Markdown(__doc__, justify="full"),
+        title=f"",
+        title_align="left",
+        expand=True,
+        padding=2,
+    )
+
+
+def render_version():
+
+    """"""
+
+    return f"[u]Version[/]: [b]{version}[/]"
+
+
+def write_template():
+
+    """"""
+
+    pass
+
+
+def calculate_stats():
+
+    """"""
+
+    pass
+
+
+@click.group(invoke_without_command=True)
+@click.option("-h", "--help", is_flag=True, is_eager=True)
+@click.option("-v", "--version", is_flag=True, is_eager=True)
+def main(help: bool, version: bool):
+
+    """"""
+
+    if help:
+        console.print(render_help())
+        sys.exit(0)
+    elif version:
+        console.print(
+            render_version(),
+            highlight=False,
         )
-        .replace("\n", "")
-        .strip()
-    )
-
-    return df
+        sys.exit(0)
+    else:
+        sys.exit(2)
 
 
-def stats(df: pd.DataFrame):
-
-    """"""
-
-    optionals = ["Twitter"]
-
-    count = len(df.index)
-    updated = arrow.utcnow().format("dddd DD MMMM, YYYY hh:mm:ss a ZZZ")
-    coverages = {
-        name: round(
-            (df[name].count() / count) * 100,
-            2,
-        )
-        for name in df.columns
-    }
-    mean_coverage = round(
-        (
-            sum(
-                [
-                    coverage
-                    for (
-                        name,
-                        coverage,
-                    ) in coverages.items()
-                    if name not in optionals
-                ]
-            )
-            / (100 * (len(df.columns) - len(optionals)))
-        )
-        * 100,
-        2,
-    )
-
-    tweeters = df.Twitter.count()
-    contactable = len(
-        [
-            row
-            for _, row in df.iterrows()
-            if pd.notna(row.Email) or pd.notna(row.Website) or pd.notna(row.Twitter)
-        ]
-    )
-
-    return [
-        count,
-        updated,
-        coverages,
-        mean_coverage,
-        tweeters,
-        contactable,
-    ]
-
-
-def ready():
+@main.command()
+def compile():
 
     """"""
 
-    df = download()
+    pass
 
-    [
-        count,
-        updated,
-        coverages,
-        mean_coverage,
-        tweeters,
-        contactable,
-    ] = stats(df)
 
-    fields = list(df.columns)
+@main.command()
+def update():
 
-    about = serve(
-        "about.mako",
-        count=count,
-        updated=updated,
-        tweeters=tweeters,
-        coverages=coverages,
-        contactable=contactable,
-        mean_coverage=mean_coverage,
-    )
+    """"""
 
-    data = serve("data.mako", fields=fields)
-    edits = serve("edits.mako", fields=fields)
-    world_map = serve("world_map.mako")
+    pass
 
-    for page, name in [
-        (about, "about"),
-        (data, "data"),
-        (edits, "edits"),
-        (world_map, "world_map"),
-    ]:
-        with open(here / "pages" / "".join([name, ".yaml"]), "w+") as f:
-            f.write(page.strip())
 
-    df.to_csv("public/whoswho.csv")
-    df.to_json("public/whoswho.json", indent=4, orient="records")
+@main.command()
+def stats():
+
+    """"""
+
+    pass
+
+
+@main.command()
+def serve():
+
+    """"""
+
+    pass
+
+
+if __name__ == "__main__":
+    main()
