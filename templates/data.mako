@@ -1,16 +1,22 @@
 <%inherit file="page.mako"/>
 
-<%!
-    id_ = "data"
-    title_ = "The Who's Who database"
-%>
+<%block name="title">The Who's Who database</%block>
 
-<%block name="contents">
+<%block name="pgbody">
+      - id: intro
+        type: Markdown
+        properties:
+          style:
+            text-align: ${txalign}
+            font-family: ${bdfont}
+          content: |
+            The list.
+
       - id: table
         type: AgGridAlpine
         properties:
           style:
-            font-family: ${self.attr.body_font}
+            font-family: ${bdfont}
           pagination: true
           rowData:
             _ref: public/whoswho.json
@@ -57,7 +63,7 @@
           type: primary
           icon: SaveOutlined
           style:
-            font-family: ${self.attr.head_font}
+            font-family: ${hdfont}
         events:
           onClick:
             - id: download

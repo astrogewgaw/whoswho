@@ -1,34 +1,24 @@
 <%inherit file="page.mako"/>
 
-<%!
-    id_ = "about"
-    title = "About Who's Who"
-%>
+<%block name="title">Who's Who in Astrochemistry</%block>
 
-<%block name="contents">
-      - id: title
-        type: Title
-        properties:
-          level: 1
-          content: Who's Who?
-          style:
-            text-align: center
-            font-family: ${self.attr.title_font}
+<%block name="pgbody">
       - id: netlify_status
         type: Markdown
         properties:
           style:
-            text-align: center
+            text-align: ${ttalign}
           content: |
             [![Netlify Status][deploy-status]][deploys]
             
             [deploys]: https://app.netlify.com/sites/whoswho/deploys
             [deploy-status]: https://api.netlify.com/api/v1/badges/ebd6006f-31b2-4fb4-bde0-b358aee83986/deploy-status
+
       - id: badges
         type: Markdown
         properties:
           style:
-            text-align: center
+            text-align: ${ttalign}
           content: |
             ![License][license]
             [![Gitmoji][gitmoji-badge]][gitmoji]
@@ -53,13 +43,14 @@
           level: 2
           content: A list 📝 of astrochemists 🧪 from across the globe 🌏 !
           style:
-            text-align: center
-            font-family: ${self.attr.head_font}
+            text-align: ${ttalign}
+            font-family: ${hdfont}
+
       - id: intro
         type: Markdown
         properties:
           style:
-            text-align: justify
-            font-family: ${self.attr.body_font}
+            text-align: ${txalign}
+            font-family: ${bdfont}
           content:
 </%block>

@@ -1,34 +1,22 @@
-<%!
-    id_ = "default"
-    type_ = "PageHCF"
-    title = "Default"
-
-    gutter = 15
-    align = "center"
-    bgcolor = "black"
-    body_font = "Cantarell"
-    head_font = "Fredoka One"
-    title_font = "Bungee Shade"
-%>
-
-id: ${self.attr.id_}
-type: ${self.attr.type_}
-layout:
-  contentJustify: ${self.attr.align}
+id: ${pgid}
+type: ${pgctx}
 properties:
-  title: ${self.attr.title}
+  title: ${self.title()}
   style:
-    background-color: ${self.attr.bgcolor}
+    text-align: ${pgalign}
+    font-family: ${hdfont}
+    background-color: ${bgcolor}
 
 <%block name="requests"/>
 
 blocks:
 
-  - id: main_menu
+  <%block name="menu">
+  - id: menu
     type: Menu
     style:
-      text-align: ${self.attr.align}
-      font-family: ${self.attr.head_font}
+      text-align: ${mnalign}
+      font-family: ${hdfont}
     properties:
       mode: horizontal
       links:
@@ -39,21 +27,35 @@ blocks:
           properties:
             title: ${page.title().replace("_", " ")}
       % endfor
+  </%block>
 
+  <%block name="contents">
   - id: cover
     type: Card
     layout:
-      contentGutter: ${self.attr.gutter}
+      contentGutter: ${gutter}
     blocks:
-      <%block name="contents"/>
-      <%block name="footer">
+      <%block name="pghead">
+      - id: title
+        type: Title
+        properties:
+          content: ${self.title()}
+          level: 1
+          style:
+            text-align: ${ttalign}
+            font-family: ${ttfont}
+          underline: true
+      </%block>
+      <%block name="pgbody"/>
+      <%block name="pgfoot">
       - id: footer
         type: Markdown
         properties:
           style:
             text-align: center
-            font-family: ${self.attr.head_font}
+            font-family: ${hdfont}
           skipHtml: true
           content: |
             Copyright &#xa9; 2021 Ujjwal Panda
       </%block>
+  </%block>

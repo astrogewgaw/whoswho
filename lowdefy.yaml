@@ -5,7 +5,7 @@
 # YAML and Python files are licensed under the MIT license.
 
 name: whoswho
-lowdefy: 3.19.0
+lowdefy: 3.20.4
 licence: MIT License
 
 # Configure the web app to use "about.yaml" as the home page.
@@ -13,19 +13,11 @@ config:
   homePageId: about
 
 # Appending custom code to the header that will enable
-# Google Analytics, add support for Google Fonts, and 
-# allows the use of D3.
+# us to use Google Fonts in our application.
 app:
   html:
-    appendHead: |
-      <!-- Google Font Configuration -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka+One&family=Bungee+Shade&display=swap" rel="stylesheet">
-      <!-- End of Google Font Configuration -->
-      <!-- D3 CDN -->
-      <script src="https://d3js.org/d3.v7.min.js"></script>
-      <!-- End of D3 CDN -->
+    appendHead:
+      _ref: templates/head.html
 
 
 # Adding the AgGridAlpine block type. This will be used to
@@ -72,10 +64,10 @@ menus:
 #   1. An about page. This describes what the Who's Who is all
 #      about, how it started, and how to contribute to it.
 #   2. The list. This is where the list is displayed as a table.
-#   3. The world map. This is where we display a dynamic world
-#      map of astrochemists (ref: Issue #3).
-#   4. The edits form. This is where any user can submit edits
+#   3. The edits form. This is where any user can submit edits
 #      to the Who's Who database.
+#   4. The world map. This is where we display a dynamic world
+#      map of astrochemists.
 pages:
   - _ref: pages/about.yaml
   - _ref: pages/data.yaml

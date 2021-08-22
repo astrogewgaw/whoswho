@@ -1,17 +1,18 @@
 id: globe
 type: PageHCF
-layout:
-  contentJustify: center
 properties:
-  title: Default
+  title: The Astrochemists' World Map
   style:
+    text-align: center
+    font-family: Fredoka One
     background-color: black
 
 
 
 blocks:
 
-  - id: main_menu
+  
+  - id: menu
     type: Menu
     style:
       text-align: center
@@ -39,14 +40,26 @@ blocks:
           pageId: globe
           properties:
             title: Globe
+  
 
+  
   - id: cover
     type: Card
     layout:
       contentGutter: 15
     blocks:
       
-
+      - id: title
+        type: Title
+        properties:
+          content: The Astrochemists' World Map
+          level: 1
+          style:
+            text-align: center
+            font-family: Bungee Shade
+          underline: true
+      
+      
       
       - id: footer
         type: Markdown
@@ -57,3 +70,5 @@ blocks:
           skipHtml: true
           content: |
             Copyright &#xa9; 2021 Ujjwal Panda
+      
+  

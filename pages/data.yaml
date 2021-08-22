@@ -1,17 +1,18 @@
 id: data
 type: PageHCF
-layout:
-  contentJustify: center
 properties:
-  title: Default
+  title: The Who's Who database
   style:
+    text-align: center
+    font-family: Fredoka One
     background-color: black
 
 
 
 blocks:
 
-  - id: main_menu
+  
+  - id: menu
     type: Menu
     style:
       text-align: center
@@ -39,18 +40,40 @@ blocks:
           pageId: globe
           properties:
             title: Globe
+  
 
+  
   - id: cover
     type: Card
     layout:
       contentGutter: 15
     blocks:
       
+      - id: title
+        type: Title
+        properties:
+          content: The Who's Who database
+          level: 1
+          style:
+            text-align: center
+            font-family: Bungee Shade
+          underline: true
+      
+      
+      - id: intro
+        type: Markdown
+        properties:
+          style:
+            text-align: justify
+            font-family: Balsamiq Sans
+          content: |
+            The list.
+
       - id: table
         type: AgGridAlpine
         properties:
           style:
-            font-family: Cantarell
+            font-family: Balsamiq Sans
           pagination: true
           rowData:
             _ref: public/whoswho.json
@@ -143,3 +166,5 @@ blocks:
           skipHtml: true
           content: |
             Copyright &#xa9; 2021 Ujjwal Panda
+      
+  

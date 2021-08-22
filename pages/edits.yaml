@@ -1,10 +1,10 @@
 id: edits
 type: PageHCF
-layout:
-  contentJustify: center
 properties:
   title: Submit edits to Who's Who
   style:
+    text-align: center
+    font-family: Fredoka One
     background-color: black
 
 
@@ -30,7 +30,8 @@ requests:
 
 blocks:
 
-  - id: main_menu
+  
+  - id: menu
     type: Menu
     style:
       text-align: center
@@ -58,7 +59,9 @@ blocks:
           pageId: globe
           properties:
             title: Globe
+  
 
+  
   - id: cover
     type: Card
     layout:
@@ -68,13 +71,14 @@ blocks:
       - id: title
         type: Title
         properties:
-          content: Submit edits to the Who's Who list.
+          content: Submit edits to Who's Who
           level: 1
           style:
             text-align: center
-            font-family: Fredoka One
+            font-family: Bungee Shade
           underline: true
-  
+      
+      
       - id: person_name
         type: TextInput
         required: true
@@ -153,3 +157,5 @@ blocks:
           skipHtml: true
           content: |
             Copyright &#xa9; 2021 Ujjwal Panda
+      
+  

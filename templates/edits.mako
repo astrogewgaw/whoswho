@@ -1,9 +1,6 @@
 <%inherit file="page.mako"/>
 
-<%!
-    id_ = "edits"
-    title = "Submit edits to Who's Who"
-%>
+<%block name="title">Submit edits to Who's Who</%block>
 
 <%block name="requests">
 requests:
@@ -17,18 +14,8 @@ requests:
         _state: person_${field.lower()}
       % endfor
 </%block>
-
-<%block name="contents">
-      - id: title
-        type: Title
-        properties:
-          content: Submit edits to the Who's Who list.
-          level: 1
-          style:
-            text-align: center
-            font-family: Fredoka One
-          underline: true
   
+<%block name="pgbody">
       % for field in fields:
       - id: person_${field.lower()}
         type: TextInput
