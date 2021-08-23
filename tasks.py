@@ -334,8 +334,10 @@ def compile(c):
                 f.write(
                     lookup.get_template(tname).render(
                         pgid=page,
-                        **statistics,
-                        **config.settings,
+                        pages=config.pages,
+                        statistics=statistics,
+                        columns=statistics.columns,
+                        **attr.asdict(config.settings),
                     )
                 )
 

@@ -49,16 +49,14 @@ blocks:
       contentGutter: 15
     blocks:
       
-      - id: title
-        type: Title
+      - id: header
+        type: Markdown
         properties:
-          content: Who's Who in Astrochemistry
-          level: 1
-          style:
-            text-align: center
-            font-family: Bungee Shade
-          underline: true
-      
+          content: |
+            ![Github Header][header]
+
+            [header]: https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/whoswho-header.png
+
       
       - id: netlify_status
         type: Markdown
@@ -91,8 +89,8 @@ blocks:
             [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
             [count]: https://img.shields.io/badge/Astrochemists-365-blueviolet?style=for-the-badge
             [tweeters]: https://img.shields.io/badge/Tweeters-51-blue?style=for-the-badge&logo=twitter            
-            [contactable]: https://img.shields.io/badge/Contactable-304-darkgreen?style=for-the-badge
-            [updated]: https://img.shields.io/badge/Last%20Updated-Sunday%2022%20August,%202021%2012:33:40%20pm%20UTC-purple?style=for-the-badge
+            [contactable]: https://img.shields.io/badge/Contactable-286-darkgreen?style=for-the-badge
+            [updated]: https://img.shields.io/badge/Last%20Updated-Saturday%2021%20August,%202021%2007:13:09%20pm%20UTC-purple?style=for-the-badge
       
       - id: subtitle
         type: Title

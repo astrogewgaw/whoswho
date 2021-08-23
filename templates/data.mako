@@ -25,7 +25,7 @@
             resizable: true
             filter: true
           columnDefs:
-            % for field in fields:
+            % for field in columns:
             - headeName: ${field}
               field: ${field}
               width: 350

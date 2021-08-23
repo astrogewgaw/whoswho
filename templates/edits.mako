@@ -9,14 +9,14 @@ requests:
     connectionId: edit_sheet
     properties:
       row:
-      % for field in fields:
+      % for field in columns:
       person_${field.lower()}:
         _state: person_${field.lower()}
       % endfor
 </%block>
   
 <%block name="pgbody">
-      % for field in fields:
+      % for field in columns:
       - id: person_${field.lower()}
         type: TextInput
         required: true

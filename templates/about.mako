@@ -2,6 +2,16 @@
 
 <%block name="title">Who's Who in Astrochemistry</%block>
 
+<%block name="pghead">
+      - id: header
+        type: Markdown
+        properties:
+          content: |
+            ![Github Header][header]
+
+            [header]: https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/whoswho-header.png
+</%block>
+
 <%block name="pgbody">
       - id: netlify_status
         type: Markdown
@@ -32,10 +42,10 @@
             [gitmoji]: https://gitmoji.dev
             [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
             [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
-            [count]: https://img.shields.io/badge/Astrochemists-${count | u}-blueviolet?style=for-the-badge
-            [tweeters]: https://img.shields.io/badge/Tweeters-${tweeters | u}-blue?style=for-the-badge&logo=twitter            
-            [contactable]: https://img.shields.io/badge/Contactable-${contactable | u}-darkgreen?style=for-the-badge
-            [updated]: https://img.shields.io/badge/Last%20Updated-${updated.replace(" ", "%20")}-purple?style=for-the-badge
+            [count]: https://img.shields.io/badge/Astrochemists-${statistics.count | u}-blueviolet?style=for-the-badge
+            [tweeters]: https://img.shields.io/badge/Tweeters-${statistics.tweeters | u}-blue?style=for-the-badge&logo=twitter            
+            [contactable]: https://img.shields.io/badge/Contactable-${statistics.contactable | u}-darkgreen?style=for-the-badge
+            [updated]: https://img.shields.io/badge/Last%20Updated-${statistics.updated.replace(" ", "%20")}-purple?style=for-the-badge
       
       - id: subtitle
         type: Title
