@@ -7,8 +7,8 @@
         type: Markdown
         properties:
           style:
-            text-align: ${txalign}
-            font-family: ${bdfont}
+            text-align: ${settings.txalign}
+            font-family: ${settings.bdfont}
           content: |
             The list.
 
@@ -16,7 +16,7 @@
         type: AgGridAlpine
         properties:
           style:
-            font-family: ${bdfont}
+            font-family: ${settings.bdfont}
           pagination: true
           rowData:
             _ref: public/whoswho.json
@@ -25,7 +25,7 @@
             resizable: true
             filter: true
           columnDefs:
-            % for field in columns:
+            % for field in stats.columns:
             - headeName: ${field}
               field: ${field}
               width: 350
@@ -62,8 +62,6 @@
           title: "Download as CSV"
           type: primary
           icon: SaveOutlined
-          style:
-            font-family: ${hdfont}
         events:
           onClick:
             - id: download

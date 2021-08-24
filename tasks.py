@@ -1,5 +1,3 @@
-# type: ignore
-
 """
 This script is used to manage the [**Who's Who in Astrochemistry**][whoswho]
 database, a contact list of astrochemists from around the globe. If you are
@@ -50,7 +48,7 @@ files andf in the web application. You can check out some stats about the databa
 by typing:
 
 ```bash
-invoke stats
+invoke statistics
 ```
 
 If you wish to update your copy of the database, just run:
@@ -69,18 +67,18 @@ invoke update
 """
 
 import attr
-import toml
-import arrow
-import pandas as pd
+import yaml
+import arrow  # type: ignore
+import pandas as pd  # type: ignore
 
-from invoke import task
-from typing import Union
+from invoke import task  # type: ignore
 from pathlib import Path
 from textwrap import dedent
 from rich.panel import Panel
 from rich.table import Table
+from typing import List, Union
 from rich.markdown import Markdown
-from mako.lookup import TemplateLookup
+from mako.lookup import TemplateLookup  # type: ignore
 from rich.console import Console, RenderGroup
 
 
@@ -88,7 +86,7 @@ console = Console()
 
 
 @attr.s(auto_attribs=True)
-class Metadata(object):
+class Meta(object):
 
     name: str
     email: str
@@ -101,15 +99,15 @@ class Metadata(object):
 
 
 @attr.s(auto_attribs=True)
-class Directories(object):
+class Dirs(object):
 
-    pages: Union[str, Path]
-    public: Union[str, Path]
-    templates: Union[str, Path]
+    pages: Path
+    public: Path
+    templates: Path
 
 
 @attr.s(auto_attribs=True)
-class URLs(object):
+class Urls(object):
 
     main: str
     repo: str
@@ -122,6 +120,7 @@ class URLs(object):
 class Settings(object):
 
     pgctx: str
+    pages: List
 
     gutter: str
 
@@ -138,45 +137,36 @@ class Settings(object):
     ttfont: str
 
 
-@attr.s(auto_attribs=True)
-class Configuration(object):
+with open("config.yaml", "r") as f:
+    config = yaml.load(f.read(), Loader=yaml.SafeLoader)
 
-    """"""
+meta = Meta(**config["meta"])
 
-    urls: URLs
-    meta: Metadata
-    dirs: Directories
-    settings: Settings
+urls = Urls(
+    **{
+        name: value.replace(" ", "").strip()
+        for (
+            name,
+            value,
+        ) in config["urls"].items()
+    }
+)
 
-    def __rich__(self):
-        pass
+dirs = Dirs(
+    **{
+        name: (Path.cwd() / value).resolve()
+        for (
+            name,
+            value,
+        ) in config["dirs"].items()
+    }
+)
 
-    @classmethod
-    def load(cls):
-        data = toml.load("config.toml")
-        return cls(
-            urls=URLs(**data["urls"]),
-            meta=Metadata(**data["meta"]),
-            dirs=Directories(
-                **{
-                    name: (Path.cwd() / value).resolve()
-                    for (
-                        name,
-                        value,
-                    ) in data["dirs"].items()
-                }
-            ),
-            settings=Settings(**data["settings"]),
-        )
-
-    @property
-    def pages(self):
-        files = config.dirs.templates.glob("*.mako")
-        return [f.stem for f in files if f.stem != "page"]
+settings = Settings(**config["settings"])
 
 
 @attr.s(repr=False, auto_attribs=True)
-class Statistics(object):
+class Stats(object):
 
     """"""
 
@@ -233,7 +223,7 @@ class Statistics(object):
 
     @classmethod
     def load(cls):
-        onfile = config.dirs.public / "whoswho.csv"
+        onfile = dirs.public / "whoswho.csv"
         data = pd.read_csv(onfile, index_col=0)
         return cls(data=data, onfile=onfile)
 
@@ -274,8 +264,7 @@ class Statistics(object):
         return covmean
 
 
-config = Configuration.load()
-statistics = Statistics.load()
+stats = Stats.load()
 
 
 @task
@@ -286,10 +275,10 @@ def help(c):
     with console.pager(styles=True):
         console.print(
             Panel(
-                Markdown(__doc__.format(**attr.asdict(config.urls)), justify="full"),
+                Markdown(__doc__.format(**attr.asdict(urls)), justify="full"),
                 padding=2,
                 expand=True,
-                title=f"[b]{config.meta.name}[/]: [i]{config.meta.description}[/]",
+                title=f"[b]{meta.name}[/]: [i]{meta.description}[/]",
                 title_align="left",
             )
         )
@@ -300,7 +289,7 @@ def version(c):
 
     """"""
 
-    console.print(f"[u]Version[/]: [b]{config.meta.version}[/]")
+    console.print(f"[u]Version[/]: [b]{meta.version}[/]")
 
 
 @task
@@ -309,13 +298,13 @@ def update(c):
     """"""
 
     with console.status(status="Updating database..."):
-        path = config.dirs.public / "whoswho.json"
+        path = dirs.public / "whoswho.json"
         if path.exists():
             time = arrow.get(path.stat().st_mtime)
             if (arrow.now() - time).days < 7:
                 df = pd.read_csv(path.with_suffix(".csv"))
         else:
-            df = pd.read_csv(config.urls.data)
+            df = pd.read_csv(urls.data)
             df.to_csv(path.with_suffix(".csv"))
             df.to_json(path, indent=4, orient="records")
 
@@ -326,29 +315,28 @@ def compile(c):
     """"""
 
     with console.status(status="Compiling templates..."):
-        lookup = TemplateLookup(directories=[config.dirs.templates])
-        for page in config.pages:
-            pname = "".join([page, ".yaml"])
-            tname = "".join([page, ".mako"])
-            with open(config.dirs.pages / pname, "w+") as f:
+        lookup = TemplateLookup(directories=[dirs.templates])
+        for page in settings.pages:
+            with open(dirs.pages / f"{page}.yaml", "w+") as f:
                 f.write(
-                    lookup.get_template(tname).render(
+                    lookup.get_template(f"pages/{page}.mako").render(
                         pgid=page,
-                        pages=config.pages,
-                        statistics=statistics,
-                        columns=statistics.columns,
-                        **attr.asdict(config.settings),
+                        meta=meta,
+                        dirs=dirs,
+                        urls=urls,
+                        stats=stats,
+                        settings=settings,
                     )
                 )
 
 
 @task(update)
-def stats(c):
+def statistics(c):
 
     """"""
 
     with console.pager(styles=True):
-        console.print(statistics)
+        console.print(stats)
 
 
 @task(compile)
@@ -416,11 +404,11 @@ def readme(c):
     with open("README.md", "w+") as f:
         f.write(
             readme.format(
-                name=config.meta.name,
+                name=meta.name,
                 doc=__doc__.strip(),
-                count=statistics.count,
-                tweeters=statistics.tweeters,
-                contactable=statistics.contactable,
-                updated=statistics.updated.replace(" ", "%20"),
+                count=stats.count,
+                tweeters=stats.tweeters,
+                contactable=stats.contactable,
+                updated=stats.updated.replace(" ", "%20"),
             )
         )

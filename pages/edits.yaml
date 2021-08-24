@@ -79,32 +79,32 @@ blocks:
           underline: true
       
       
-      - id: person_name
+      - id: person_namesettings.
         type: TextInput
         required: true
         properties:
           title: Name
-      - id: person_institution
+      - id: person_institutionsettings.
         type: TextInput
         required: true
         properties:
           title: Institution
-      - id: person_position
+      - id: person_positionsettings.
         type: TextInput
         required: true
         properties:
           title: Position
-      - id: person_email
+      - id: person_emailsettings.
         type: TextInput
         required: true
         properties:
           title: Email
-      - id: person_website
+      - id: person_websitesettings.
         type: TextInput
         required: true
         properties:
           title: Website
-      - id: person_twitter
+      - id: person_twittersettings.
         type: TextInput
         required: true
         properties:
@@ -119,8 +119,6 @@ blocks:
           title: Reset
           type: default
           icon: ClearOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: reset
@@ -135,8 +133,6 @@ blocks:
           title: Submit
           type: primary
           icon: SaveOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: validate
@@ -153,9 +149,9 @@ blocks:
         properties:
           style:
             text-align: center
-            font-family: Fredoka One
           skipHtml: true
           content: |
+            
             Copyright &#xa9; 2021 Ujjwal Panda
       
   

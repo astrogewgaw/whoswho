@@ -65,7 +65,7 @@ blocks:
         properties:
           style:
             text-align: justify
-            font-family: Balsamiq Sans
+            font-family: Cantarell
           content: |
             The list.
 
@@ -73,7 +73,7 @@ blocks:
         type: AgGridAlpine
         properties:
           style:
-            font-family: Balsamiq Sans
+            font-family: Cantarell
           pagination: true
           rowData:
             _ref: public/whoswho.json
@@ -144,8 +144,6 @@ blocks:
           title: "Download as CSV"
           type: primary
           icon: SaveOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: download
@@ -162,9 +160,9 @@ blocks:
         properties:
           style:
             text-align: center
-            font-family: Fredoka One
           skipHtml: true
           content: |
+            
             Copyright &#xa9; 2021 Ujjwal Panda
       
   

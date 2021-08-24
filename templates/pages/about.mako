@@ -17,7 +17,7 @@
         type: Markdown
         properties:
           style:
-            text-align: ${ttalign}
+            text-align: ${settings.ttalign}
           content: |
             [![Netlify Status][deploy-status]][deploys]
             
@@ -28,7 +28,7 @@
         type: Markdown
         properties:
           style:
-            text-align: ${ttalign}
+            text-align: ${settings.ttalign}
           content: |
             ![License][license]
             [![Gitmoji][gitmoji-badge]][gitmoji]
@@ -42,10 +42,10 @@
             [gitmoji]: https://gitmoji.dev
             [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
             [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
-            [count]: https://img.shields.io/badge/Astrochemists-${statistics.count | u}-blueviolet?style=for-the-badge
-            [tweeters]: https://img.shields.io/badge/Tweeters-${statistics.tweeters | u}-blue?style=for-the-badge&logo=twitter            
-            [contactable]: https://img.shields.io/badge/Contactable-${statistics.contactable | u}-darkgreen?style=for-the-badge
-            [updated]: https://img.shields.io/badge/Last%20Updated-${statistics.updated.replace(" ", "%20")}-purple?style=for-the-badge
+            [count]: https://img.shields.io/badge/Astrochemists-${stats.count | u}-blueviolet?style=for-the-badge
+            [tweeters]: https://img.shields.io/badge/Tweeters-${stats.tweeters | u}-blue?style=for-the-badge&logo=twitter            
+            [contactable]: https://img.shields.io/badge/Contactable-${stats.contactable | u}-darkgreen?style=for-the-badge
+            [updated]: https://img.shields.io/badge/Last%20Updated-${stats.updated.replace(" ", "%20")}-purple?style=for-the-badge
       
       - id: subtitle
         type: Title
@@ -53,14 +53,15 @@
           level: 2
           content: A list 📝 of astrochemists 🧪 from across the globe 🌏 !
           style:
-            text-align: ${ttalign}
-            font-family: ${hdfont}
+            text-align: ${settings.ttalign}
+            font-family: ${settings.hdfont}
 
       - id: intro
         type: Markdown
         properties:
           style:
-            text-align: ${txalign}
-            font-family: ${bdfont}
+            text-align: ${settings.txalign}
+            font-family: ${settings.bdfont}
           content:
+            _ref: texts/about.md
 </%block>

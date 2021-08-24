@@ -9,15 +9,15 @@ requests:
     connectionId: edit_sheet
     properties:
       row:
-      % for field in columns:
+      % for field in stats.columns:
       person_${field.lower()}:
         _state: person_${field.lower()}
       % endfor
 </%block>
   
 <%block name="pgbody">
-      % for field in columns:
-      - id: person_${field.lower()}
+      % for field in stats.columns:
+      - id: person_${field.lower()}settings.
         type: TextInput
         required: true
         properties:
@@ -33,8 +33,6 @@ requests:
           title: Reset
           type: default
           icon: ClearOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: reset
@@ -49,8 +47,6 @@ requests:
           title: Submit
           type: primary
           icon: SaveOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: validate

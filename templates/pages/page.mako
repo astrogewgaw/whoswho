@@ -1,11 +1,11 @@
 id: ${pgid}
-type: ${pgctx}
+type: ${settings.pgctx}
 properties:
   title: ${self.title()}
   style:
-    text-align: ${pgalign}
-    font-family: ${hdfont}
-    background-color: ${bgcolor}
+    text-align: ${settings.pgalign}
+    font-family: ${settings.hdfont}
+    background-color: ${settings.bgcolor}
 
 <%block name="requests"/>
 
@@ -15,12 +15,12 @@ blocks:
   - id: menu
     type: Menu
     style:
-      text-align: ${mnalign}
-      font-family: ${hdfont}
+      text-align: ${settings.mnalign}
+      font-family: ${settings.hdfont}
     properties:
       mode: horizontal
       links:
-      % for page in pages:
+      % for page in settings.pages:
         - id: ${page}_menu
           type: MenuLink
           pageId: ${page}
@@ -33,7 +33,7 @@ blocks:
   - id: cover
     type: Card
     layout:
-      contentGutter: ${gutter}
+      contentGutter: ${settings.gutter}
     blocks:
       <%block name="pghead">
       - id: title
@@ -42,8 +42,8 @@ blocks:
           content: ${self.title()}
           level: 1
           style:
-            text-align: ${ttalign}
-            font-family: ${ttfont}
+            text-align: ${settings.ttalign}
+            font-family: ${settings.ttfont}
           underline: true
       </%block>
       <%block name="pgbody"/>
@@ -53,9 +53,12 @@ blocks:
         properties:
           style:
             text-align: center
-            font-family: ${hdfont}
           skipHtml: true
           content: |
-            Copyright &#xa9; 2021 Ujjwal Panda
+            <%
+            import arrow
+            current_year = arrow.now().year
+            %>
+            Copyright &#xa9; ${current_year} ${meta.author}
       </%block>
   </%block>

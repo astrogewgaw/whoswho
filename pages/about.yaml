@@ -106,8 +106,9 @@ blocks:
         properties:
           style:
             text-align: justify
-            font-family: Balsamiq Sans
+            font-family: Cantarell
           content:
+            _ref: texts/about.md
 
       
       - id: footer
@@ -115,9 +116,9 @@ blocks:
         properties:
           style:
             text-align: center
-            font-family: Fredoka One
           skipHtml: true
           content: |
+            
             Copyright &#xa9; 2021 Ujjwal Panda
       
   

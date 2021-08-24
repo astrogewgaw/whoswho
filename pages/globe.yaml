@@ -66,9 +66,9 @@ blocks:
         properties:
           style:
             text-align: center
-            font-family: Fredoka One
           skipHtml: true
           content: |
+            
             Copyright &#xa9; 2021 Ujjwal Panda
       
   
