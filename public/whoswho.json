@@ -21,7 +21,7 @@
         "Position":"Emeritus Professor",
         "Email":"avda@theochem.ru.nl",
         "Website":"https:\/\/www.theochem.ru.nl\/~avda\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Alec Kroll",
@@ -44,8 +44,8 @@
         "Institution":"Radboud University",
         "Position":"Postdoc",
         "Email":"A.Atamas@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Alexander Mebel",
@@ -53,7 +53,7 @@
         "Position":"Professor",
         "Email":"mebela@fiu.edu",
         "Website":"http:\/\/faculty.fiu.edu\/~mebela\/index_files\/slide0003.htm",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Alexander Ruf",
@@ -61,15 +61,15 @@
         "Position":"Postdoc",
         "Email":"rufalexan@gmail.com",
         "Website":"https:\/\/sites.google.com\/view\/aruf",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Alexandre Faure",
         "Institution":"Institut de Plan\u00e9tologie et d\u2019Astrophysique de Grenoble (IPAG)",
         "Position":"CNRS Research Director",
         "Email":"afaure@obs.ujf.grenoble.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Alvaro Sanchez-Monge",
@@ -77,7 +77,7 @@
         "Position":"Postdoc",
         "Email":"sanchez@ph1.uni-koeln.de",
         "Website":"https:\/\/hera.ph1.uni-koeln.de\/~sanchez\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Alya Amirah",
@@ -85,7 +85,7 @@
         "Position":"Grad",
         "Email":"alya@doktorant.umk.pl",
         "Website":"https:\/\/www.fizyka.umk.pl\/en\/staff-info\/?userId=681&user=alya",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Amit Pathak",
@@ -93,38 +93,38 @@
         "Position":"Associate Professor",
         "Email":"amitpah@gmail.com",
         "Website":"https:\/\/bhu.irins.org\/profile\/109418",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ana L\u00f3pez-Sepulcre",
         "Institution":"IRAM",
         "Position":"Astronomer",
         "Email":"lopez@iram.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Andr\u00e9 Canosa",
         "Institution":"Universit\u00e9 de Rennes 1",
         "Position":"Research Director",
         "Email":"andre.canosa@univ-rennes1.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Andreas Schw\u00f6rer",
         "Institution":"I. Physikalisches Institut, Universit\u00e4t zu K\u00f6ln",
         "Position":"Grad",
         "Email":"schwoerer@ph1.uni-koeln.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Andrew Burkhardt",
         "Institution":"Harvard-Simthsonian Center for Astrophysics",
         "Position":"Postdoc",
         "Email":"andrew.burkhardt@cfa.harvard.edu",
-        "Website":"",
+        "Website":null,
         "Twitter":"@astrochemandrew"
     },
     {
@@ -133,7 +133,7 @@
         "Position":"Professor",
         "Email":"acooksy@sdsu.edu",
         "Website":"http:\/\/www.chemistry.sdsu.edu\/faculty\/Cooksy\/group.php",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Andrew Lehmann",
@@ -141,7 +141,7 @@
         "Position":"Postdoc",
         "Email":"andrew.lehmann@ens.fr",
         "Website":"http:\/\/web.science.mq.edu.au\/~alehmann\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Andrew Turner",
@@ -149,7 +149,7 @@
         "Position":"Assistant Professor",
         "Email":"aturner7@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Anita Dawes",
@@ -163,17 +163,17 @@
         "Name":"Anna Wannenmacher",
         "Institution":"University of California Davis",
         "Position":"Grad",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/crabtreelab.ucdavis.edu\/node\/153",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Anna Sage Ross-Browning",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Annemieke Petrignani",
@@ -181,7 +181,7 @@
         "Position":"Assistant Professor",
         "Email":"A.Petrignani@uva.nl",
         "Website":"https:\/\/www.uva.nl\/profiel\/p\/e\/a.petrignani\/a.petrignani.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Anouk Rijs",
@@ -189,7 +189,7 @@
         "Position":"Associate Professor",
         "Email":"anouk.rijs@ru.nl",
         "Website":"https:\/\/www.ru.nl\/english\/people\/rijs-a\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Anthony Rojas",
@@ -205,23 +205,23 @@
         "Position":"Assistant Professor",
         "Email":"antonvasyunin@gmail.com",
         "Website":"https:\/\/urfu.ru\/ru\/about\/personal-pages\/Personal\/person\/anton.vasyunin",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Antonio Jes\u00fas Oca\u00f1a Fern\u00e1ndez",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Ardith Diane Bravenec",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Arthur Suits",
@@ -229,14 +229,14 @@
         "Position":"Professor",
         "Email":"suitsa@missouri.edu",
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/index.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ashley Lindal\u00eda Walker",
         "Institution":"Howard University",
         "Position":"PhD student",
         "Email":"awalke49@csu.edu",
-        "Website":"",
+        "Website":null,
         "Twitter":"@That_Astro_Chic"
     },
     {
@@ -245,7 +245,7 @@
         "Position":"Grad",
         "Email":"ac8hq@virginia.edu",
         "Website":"https:\/\/garrodgroup.as.virginia.edu\/people\/profile\/ac8hq",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Astrid Bergeat",
@@ -253,15 +253,15 @@
         "Position":"Assistant Professor",
         "Email":"astrid.bergeat@u-bordeaux.fr",
         "Website":"https:\/\/www.ism.u-bordeaux.fr\/spip.php?article460",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Asunci\u00f3n Fuente",
         "Institution":"Observatorio Astron\u00f3mico Nacional",
         "Position":"Astronomer",
         "Email":"a.fuente@oan.es",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Atefen Aghababaei",
@@ -269,23 +269,23 @@
         "Position":"Grad",
         "Email":"babaei@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ayanna Jones",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
         "Twitter":"@onlyayanna_"
     },
     {
         "Name":"Bailey Moore",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Bas v.d. Meerakker",
@@ -293,15 +293,15 @@
         "Position":"Professor",
         "Email":"b.vamdemeerakker@science.ru.nl",
         "Website":"https:\/\/www.ru.nl\/scm\/group\/group-members\/bas-meerakker\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Bea Baharier",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Bettina Heyne",
@@ -309,7 +309,7 @@
         "Position":"Grad",
         "Email":"heyne@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Brandt A. L. Gaches",
@@ -317,22 +317,22 @@
         "Position":"Postdoc",
         "Email":"gaches@ph1.uni-koeln.de",
         "Website":"http:\/\/brandt-gaches.space\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Bratati Bhat",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Brett McGuire",
         "Institution":"MIT",
         "Position":"Assistant Professor",
         "Email":"brettmc@mit.edu",
-        "Website":"",
+        "Website":null,
         "Twitter":"@astrochembrett"
     },
     {
@@ -341,7 +341,7 @@
         "Position":"Postdoc",
         "Email":"brian.hays@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/en\/interlocutors\/brian-hays",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Britta Redlich",
@@ -349,7 +349,7 @@
         "Position":"Professor",
         "Email":"Britta.Redlich@ru.nl",
         "Website":"https:\/\/www.ru.nl\/felix\/about-felix\/staff\/persons\/redlich\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Brooks Pate",
@@ -357,15 +357,15 @@
         "Position":"Professor",
         "Email":"bp2k@virginia.edu",
         "Website":"https:\/\/chemistry.as.virginia.edu\/people\/profile\/bp2k",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Bryn\u00e9 Hadnott",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Cam Buzard",
@@ -373,31 +373,31 @@
         "Position":"Grad",
         "Email":"cbuzard@gps.caltech.edu",
         "Website":"http:\/\/web.gps.caltech.edu\/~gab\/cam.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Carl A. Gottlieb",
         "Institution":"Harvard-Simthsonian Center for Astrophysics",
         "Position":"Research Associate",
         "Email":"cgottlieb@cfa",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Carlos Munoz-Romero",
         "Institution":"Harvard-Simthsonian Center for Astrophysics",
         "Position":"Grad",
         "Email":"carlos.munoz_romero@cfa.harvard.edu",
-        "Website":"",
+        "Website":null,
         "Twitter":"@AstroCarlosMR"
     },
     {
         "Name":"Caroline Gieser",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Carsten Dominik",
@@ -405,15 +405,15 @@
         "Position":"Professor",
         "Email":"dominik@uva.nl",
         "Website":"https:\/\/staff.fnwi.uva.nl\/c.dominik\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Casey D. Foley",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Catherine Walsh",
@@ -425,11 +425,11 @@
     },
     {
         "Name":"Ceci Xue",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"C\u00e9cile Favre",
@@ -437,31 +437,31 @@
         "Position":"Junior Research Chairholder",
         "Email":"cecile.favre@univ-grenoble-alpes.fr",
         "Website":"https:\/\/ipag.osug.fr\/~favrecec\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Cecilia Ceccarelli",
         "Institution":"Institut de Plan\u00e9tologie et d'Astrophysique de Grenoble",
         "Position":"Astronomer ",
         "Email":"cecilia.ceccarelli@univ-grenoble-alpes.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Celina Berm\u00fadez Arias",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Chandika Amarasinghe",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Chao He",
@@ -469,15 +469,15 @@
         "Position":"Postdoc",
         "Email":"chaohe@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Chao He",
         "Institution":"John Hopkins University",
         "Position":"Assistant Research Scientist",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Charlie Markus",
@@ -493,15 +493,15 @@
         "Position":"Grad",
         "Email":"cpschul@emory.edu",
         "Website":"http:\/\/chemistry.emory.edu\/faculty\/widicusweaver\/Chase.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Chatura A. Perera",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Cheng Zhu",
@@ -509,7 +509,7 @@
         "Position":"Postdoc",
         "Email":"chengzhu@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Chris Arumainayagam",
@@ -517,7 +517,7 @@
         "Position":"Professor",
         "Email":"carumain@wellesley.edu",
         "Website":"https:\/\/www.wellesley.edu\/chemistry\/facultystaff\/arumainayagam",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Chris Barger",
@@ -525,7 +525,7 @@
         "Position":"Grad",
         "Email":"cjb2ck@virginia.edu",
         "Website":"https:\/\/garrodgroup.as.virginia.edu\/people\/profile\/cjb2ck",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Chris Bennett",
@@ -533,7 +533,7 @@
         "Position":"Assistant Professor",
         "Email":"Christopher.Bennett@ucf.edu",
         "Website":"https:\/\/sciences.ucf.edu\/physics\/bennett-lab\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Christian Alcaraz",
@@ -541,7 +541,7 @@
         "Position":"Professor",
         "Email":"christian.alcaraz@u-psud.fr",
         "Website":"http:\/\/pagesperso.lcp.u-psud.fr\/alcaraz\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Christian Naulin",
@@ -549,7 +549,7 @@
         "Position":"Professor",
         "Email":"christian.naulin@u-bordeaux.fr",
         "Website":"https:\/\/www.ism.u-bordeaux.fr\/spip.php?auteur105",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Christopher Shingledecker",
@@ -573,7 +573,7 @@
         "Position":"Grad",
         "Email":"cjwrig3@emory.edu",
         "Website":"http:\/\/chemistry.emory.edu\/faculty\/widicusweaver\/connor.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Cornelia Jaeger",
@@ -581,7 +581,7 @@
         "Position":"Professor",
         "Email":"cornelia.jaeger@uni-jena.de",
         "Website":"http:\/\/www.astrolab.uni-jena.de\/index.php",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Cristina Puzzarini",
@@ -593,11 +593,11 @@
     },
     {
         "Name":"Damiano Russo",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Daniel Horke",
@@ -605,7 +605,7 @@
         "Position":"Assistant Professor",
         "Email":"d.horke@science.ru.nl",
         "Website":"https:\/\/www.ru.nl\/scm\/group\/group-members\/daniel-horke\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Daniela Ascenzi",
@@ -613,7 +613,7 @@
         "Position":"Associate Professor",
         "Email":"daniela.ascenzi@unitn.it",
         "Website":"https:\/\/webapps.unitn.it\/du\/en\/Persona\/PER0003443\/Curriculum",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Dario Campisi",
@@ -621,7 +621,7 @@
         "Position":"Grad",
         "Email":"campisi@strw.leidenuniv.nl",
         "Website":"https:\/\/www.universiteitleiden.nl\/en\/staffmembers\/dario-campisi#tab-1",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"David A. Neufeld",
@@ -629,7 +629,7 @@
         "Position":"Professor",
         "Email":"dneufeld@jhu.edu",
         "Website":"https:\/\/physics-astronomy.jhu.edu\/directory\/david-a-neufeld\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"David Benoit",
@@ -645,7 +645,7 @@
         "Position":"Postdoc",
         "Email":"David.F.Dubois@nasa.gov",
         "Website":"http:\/\/www.astrochem.org\/bios\/dubois.php",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"David E. Woon",
@@ -653,7 +653,7 @@
         "Position":"Professor",
         "Email":"davidewoon@gmail.com",
         "Website":"astrochymist.org\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"David H. Parker",
@@ -661,7 +661,7 @@
         "Position":"Professor",
         "Email":"Parker@science.ru.nl",
         "Website":"https:\/\/www.ru.nl\/mollaserphys\/group\/board\/prof-dr-david-parker\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"David J. Wilner",
@@ -669,31 +669,31 @@
         "Position":"Senior Astrophysicist",
         "Email":"dwilner@cfa.harvard.edu",
         "Website":"https:\/\/www.cfa.harvard.edu\/~dwilner\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"David M\u00fcller ",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Grad",
         "Email":"davidm@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"David Yubero Valdivielso",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Grad",
         "Email":"dyv@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Dipen Sahu",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Divita Gupta",
@@ -709,7 +709,7 @@
         "Position":"Staff Member",
         "Email":"semenov@mpia.de",
         "Website":"https:\/\/www2.mpia-hd.mpg.de\/homes\/semenov\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Doris Herberth",
@@ -717,7 +717,7 @@
         "Position":"Grad",
         "Email":"herberth@physik.uni-kassel.de",
         "Website":"https:\/\/www.uni-kassel.de\/fb10\/en\/institutes\/physics\/research-groups\/laborastrophysik\/group-members\/doktoranden\/person\/348-Doris-Herberth.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Doug Johnstone",
@@ -725,7 +725,7 @@
         "Position":"Senior Research Office, Adjunct Associate Professor",
         "Email":"doug.johnstone@nrc-cnrc.gc.ca",
         "Website":"http:\/\/www.astro.uvic.ca\/~johnston\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Dwayne Heard",
@@ -733,7 +733,7 @@
         "Position":"Professor",
         "Email":"D.E.Heard@leeds.ac.uk",
         "Website":"https:\/\/fage.leeds.ac.uk\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Edwin (Ted) Bergin",
@@ -741,15 +741,15 @@
         "Position":"Professor and Chair of Astronomy",
         "Email":"ebergin@umich.edu",
         "Website":"https:\/\/bergin.umichsites.org\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Eleonora Bianchi",
         "Institution":"Univ. Grenoble Alpes, CNRS, IPAG",
         "Position":"Postdoc",
         "Email":"eleonora.bianchi@univ-grenoble-alpes.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Ella Sciamma - O' Brien",
@@ -765,30 +765,30 @@
         "Position":"Grad",
         "Email":"ellen.price@cfa.harvard.edu",
         "Website":"https:\/\/www.cfa.harvard.edu\/~eprice\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Elvire De Beck",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Emeric Bron",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Emily Rose Ingman",
         "Institution":"University of Sussex",
         "Position":"Grad",
-        "Email":"",
-        "Website":"",
+        "Email":null,
+        "Website":null,
         "Twitter":"@AstroChemily"
     },
     {
@@ -797,15 +797,15 @@
         "Position":"Professor",
         "Email":"eh2ef@virginia.edu",
         "Website":"https:\/\/chemistry.as.virginia.edu\/people\/profile\/eh2ef",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Eric Nguyen",
         "Institution":"University of California Davis",
         "Position":"Grad",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/crabtreelab.ucdavis.edu\/node\/94",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Eric Willis",
@@ -813,7 +813,7 @@
         "Position":"Grad",
         "Email":"ew2zb@virginia.edu",
         "Website":"https:\/\/garrodgroup.as.virginia.edu\/people\/profile\/ew2zb",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Evan Kelly",
@@ -821,7 +821,7 @@
         "Position":"Grad",
         "Email":"evanmk@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ewine van Dishoeck",
@@ -829,7 +829,7 @@
         "Position":"Professor",
         "Email":"ewine@strw.leidenuniv.nl",
         "Website":"https:\/\/home.strw.leidenuniv.nl\/~ewine\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Fanyi Meng",
@@ -837,7 +837,7 @@
         "Position":"Grad",
         "Email":"meng@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Farid Salama",
@@ -845,15 +845,15 @@
         "Position":"Astrophysicist",
         "Email":"farid.salama@nasa.gov",
         "Website":"https:\/\/www.nasa.gov\/content\/farid-salama",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Fernanda Rani Malta",
         "Institution":"Universidade Federal de S\u00e3o Carlos",
         "Position":"Grad",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Floris van der Tak",
@@ -861,15 +861,15 @@
         "Position":"Submillimeter Scientist, Professor",
         "Email":"vdtak@sron.nl",
         "Website":"https:\/\/personal.sron.nl\/~vdtak\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Francesco Fontani",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Francesco Sessa",
@@ -877,7 +877,7 @@
         "Position":"Postdoc",
         "Email":"sessaf@chalmers.se",
         "Website":"https:\/\/rahmlab.com\/group-members\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Francois Dulieu",
@@ -885,7 +885,7 @@
         "Position":"Professor",
         "Email":"francois.dulieu@u-cergy.fr",
         "Website":"https:\/\/lerma.obspm.fr\/spip.php?article48",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Frank Lewen",
@@ -893,7 +893,7 @@
         "Position":"Postdoc",
         "Email":"lewen@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Geoffrey A. Blake",
@@ -901,15 +901,15 @@
         "Position":"Professor",
         "Email":"gab@gps.caltech.edu",
         "Website":"http:\/\/web.gps.caltech.edu\/~gab\/geoff.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"George Hassel",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Gerrit C. Groenenboom",
@@ -917,15 +917,15 @@
         "Position":"Professor",
         "Email":"gerritg@theochem.ru.nl",
         "Website":"https:\/\/www.theochem.ru.nl\/~gerritg\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Giacomo Mulas",
         "Institution":"INAF, Cagliari OAC",
         "Position":"Senior scientist",
         "Email":"giacomo.mulas@inaf.it",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Gianfranco Vidali",
@@ -933,29 +933,29 @@
         "Position":"Professor",
         "Email":"gvidali@syr.edu",
         "Website":"https:\/\/thecollege.syr.edu\/people\/faculty\/vidali-gianfranco\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Giulia Perotti",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Graham Cooper",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Gregoire Danger",
         "Institution":"PIIM Laboratory, Aix-Marseille University",
         "Position":"Professor",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/piim.univ-amu.fr",
         "Twitter":"gregoiredanger"
     },
@@ -964,8 +964,8 @@
         "Institution":"Radboud University",
         "Position":"Grad",
         "Email":"g.abma@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Gunnar Nyman",
@@ -973,23 +973,23 @@
         "Position":"Professor",
         "Email":"gunnar.nyman@gu.se",
         "Website":"https:\/\/cmb.gu.se\/english\/about_us\/staff?userId=xnymgu",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Guoqiang Tang",
         "Institution":"Radboud University",
         "Position":"Grad",
         "Email":"G.Tang@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Gustavo Adolfo Cruz Diaz",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Gwendoline Stephan",
@@ -997,7 +997,7 @@
         "Position":"Postdoc",
         "Email":"gs6dz@virginia.edu",
         "Website":"https:\/\/garrodgroup.as.virginia.edu\/people\/profile\/gs6dz",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Hannah Calcutt",
@@ -1013,15 +1013,15 @@
         "Position":"Professor",
         "Email":"linnartz@strw.leidenuniv.nl",
         "Website":"https:\/\/home.strw.leidenuniv.nl\/~linnartz\/start.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Harshal Gupta",
         "Institution":"National Science Foundation",
         "Position":"Program Officer",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Hayley Bunn",
@@ -1037,15 +1037,15 @@
         "Position":"Associate Professor",
         "Email":"habbott@kennesaw.edu",
         "Website":"http:\/\/facultyweb.kennesaw.edu\/habbott\/index.php",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Helen Christie",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Helen Fraser",
@@ -1053,13 +1053,13 @@
         "Position":"Senior Lecturer",
         "Email":"helen.fraser@open.ac.uk",
         "Website":"http:\/\/www.open.ac.uk\/people\/hf2563",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Helgi Rafn Hr\u00f3\u00f0marsson",
         "Institution":"Laboratory for Astrophysics, Leiden Observatory, University of Leiden",
         "Position":"Marie-Curie Fellow",
-        "Email":"",
+        "Email":null,
         "Website":"cosmicchemist.com\/",
         "Twitter":"@HRHrodmarsson"
     },
@@ -1069,7 +1069,7 @@
         "Position":"Assistante Professor",
         "Email":"henda.chaabouni@cyu.fr",
         "Website":"https:\/\/www.cyu.fr\/henda-chaabouni-1",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Henrik Beuther",
@@ -1077,7 +1077,7 @@
         "Position":"Staff Member",
         "Email":"beuther@mpia-hd.mpg.de",
         "Website":"https:\/\/www2.mpia-hd.mpg.de\/homes\/beuther\/index.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Herma Cuppen",
@@ -1085,15 +1085,15 @@
         "Position":"Professor",
         "Email":"H.Cuppen@science.ru.nl",
         "Website":"https:\/\/www.theochem.ru.nl\/~hcuppen\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Hern\u00e1n Vel\u00e1squez",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Hilda Sandstr\u00f6m",
@@ -1101,7 +1101,7 @@
         "Position":"Grad",
         "Email":"hildasa@chalmers.se",
         "Website":"https:\/\/rahmlab.com\/group-members\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Holger Kreckel",
@@ -1109,7 +1109,7 @@
         "Position":"Professor",
         "Email":"holger.kreckel@mpi-hd.mpg.de",
         "Website":"https:\/\/www.mpi-hd.mpg.de\/mpi\/en\/research\/scientific-divisions-and-groups\/independent-research-groups\/astrolab",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Holger S.P. Muller",
@@ -1117,23 +1117,23 @@
         "Position":"Postdoc",
         "Email":"hspm@ph1.uni-koeln.de",
         "Website":"https:\/\/hera.ph1.uni-koeln.de\/~hspm\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Hongwei Li",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Hsien Shang",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Ian R. Sims",
@@ -1141,7 +1141,7 @@
         "Position":"Professor",
         "Email":"ian.sims@univ-rennes1.fr",
         "Website":"https:\/\/cresuchirp.wordpress.com\/team\/ , https:\/\/perso.univ-rennes1.fr\/ian.sims\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ilsa Cooke",
@@ -1173,23 +1173,23 @@
         "Position":"Associate Professor",
         "Email":"I.Swart@uu.nl",
         "Website":"http:\/\/swartlab.eu\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Isabel Aleman",
         "Institution":"Leiden Observatory, University of Leiden",
         "Position":"Postdoc",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/home.strw.leidenuniv.nl\/~aleman\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ivalu Barlach Christensen",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"J.H Westerfield",
@@ -1201,11 +1201,11 @@
     },
     {
         "Name":"Jaime Eduardo Pineda",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Jamila Pegues",
@@ -1213,7 +1213,7 @@
         "Position":"Grad",
         "Email":"jamila.pegues@cfa.harvard.edu",
         "Website":"https:\/\/astronomy.fas.harvard.edu\/people\/jamila-pegues",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jan Cami",
@@ -1225,19 +1225,19 @@
     },
     {
         "Name":"Jane Huang",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Javiera Katalina Diaz Berrios",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Jean-Christophe Loison",
@@ -1245,7 +1245,7 @@
         "Position":"Senior Scientist",
         "Email":"jean-christophe.loison@u-bordeaux.fr",
         "Website":"https:\/\/www.ism.u-bordeaux.fr\/spip.php?auteur96",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jeanna Buldyreva",
@@ -1253,7 +1253,7 @@
         "Position":"Researcher",
         "Email":"jeanna.buldyreva@univ-fcomte.fr",
         "Website":"https:\/\/www.utinam.cnrs.fr\/?Buldyreva-Jeanna&lang=fr",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jenny Bergner",
@@ -1261,23 +1261,23 @@
         "Position":"Postdoc",
         "Email":"jbergner@uchicago.edu",
         "Website":"http:\/\/jbergner.com\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jenny Triptow",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Grad",
         "Email":"Jenny@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"J\u00e9r\u00e9my Lebreton",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Jes Kristian J\u00f8rgensen",
@@ -1285,23 +1285,23 @@
         "Position":"Associate Professor",
         "Email":"jeskj@nbi.ku.dk",
         "Website":"https:\/\/youngstars.nbi.dk\/index.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jessie Porterfield",
         "Institution":"Harvard-Simthsonian Center for Astrophysics",
         "Position":"Postdoc",
         "Email":"jporterfield@cfa",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Jiao He",
         "Institution":"Max Planck Institute for Astronomy",
-        "Position":"",
+        "Position":null,
         "Email":"he@mpia.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Joel M. Bowman",
@@ -1309,7 +1309,7 @@
         "Position":"Samuel Candler Dobbs Professor",
         "Email":"jmbowma@emory.edu",
         "Website":"https:\/\/scholarblogs.emory.edu\/bowman\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Johannes K\u00e4stner",
@@ -1317,15 +1317,15 @@
         "Position":"Professor",
         "Email":"kaestner@theochem.uni-stuttgart.de",
         "Website":"https:\/\/www.itheoc.uni-stuttgart.de\/research\/kaestner\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"John H Black",
         "Institution":"Chalmers University of Technology",
         "Position":"Emeritus Professor",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"John Stanton",
@@ -1333,7 +1333,7 @@
         "Position":"Professor",
         "Email":"jfstanton@gmail.com",
         "Website":"https:\/\/sites.google.com\/site\/stantonresearchgroup\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jonathan Tan",
@@ -1341,15 +1341,15 @@
         "Position":"Professor",
         "Email":"jonathan.tan@chalmers.se",
         "Website":"https:\/\/www.chalmers.se\/en\/staff\/Pages\/jonathan-tan.aspx",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jordy Bouwman",
         "Institution":"Sackler Laboratory for Astrophysics",
         "Position":"Assistant professor",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/home.strw.leidenuniv.nl\/~bouwman\/index.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jos Oomens",
@@ -1357,15 +1357,15 @@
         "Position":"Professor",
         "Email":"j.oomens@science.ru.nl",
         "Website":"https:\/\/www.ru.nl\/msd\/group\/group\/jos_oomens\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Jose Manuel P\u00e9rez",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Joseph Messinger",
@@ -1373,15 +1373,15 @@
         "Position":"Grad",
         "Email":"jmessing@caltech.edu",
         "Website":"http:\/\/okumuragroup.caltech.edu\/people\/group-members\/joey-messinger",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Julien Montillaud",
-        "Institution":"",
-        "Position":"",
+        "Institution":null,
+        "Position":null,
         "Email":"julien.montillaud@univ-fcomte.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"June McCombie",
@@ -1397,23 +1397,23 @@
         "Position":"Grad",
         "Email":"goh@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Kai Pollow",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Student Assistant",
         "Email":"pollow@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Karen Willacy",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Karin \u00d6berg",
@@ -1421,15 +1421,15 @@
         "Position":"Professor",
         "Email":"koberg@cfa.harvard.edu",
         "Website":"www.cfa.harvard.edu\/~koberg",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Karine Beroff",
-        "Institution":"",
-        "Position":"",
+        "Institution":null,
+        "Position":null,
         "Email":"karine.beroff@u-psud.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Katarina Yocum",
@@ -1437,7 +1437,7 @@
         "Position":"Grad",
         "Email":"katarina.yocum@emory.edu",
         "Website":"http:\/\/chemistry.emory.edu\/faculty\/widicusweaver\/katarina.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Katherine C. Hunt",
@@ -1445,31 +1445,31 @@
         "Position":"University Distinguished Professor",
         "Email":"klch@chemistry.msu.edu",
         "Website":"https:\/\/www.chemistry.msu.edu\/faculty-research\/faculty-members\/katharine-c-hunt\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Katie Slavicinska",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Kelly Meyer",
         "Institution":"University of California Davis",
         "Position":"Grad",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/crabtreelab.ucdavis.edu\/node\/93",
         "Twitter":"@farydew"
     },
     {
         "Name":"Kevin M. Hickson",
         "Institution":"University of Bordeaux",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"https:\/\/www.ism.u-bordeaux.fr\/spip.php?auteur217",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Kevin Roenitz",
@@ -1477,7 +1477,7 @@
         "Position":"Grad",
         "Email":"k.m.roenitz@emory.edu",
         "Website":"http:\/\/chemistry.emory.edu\/faculty\/widicusweaver\/kevin.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Kin Long Kelvin Lee",
@@ -1493,7 +1493,7 @@
         "Position":"Grad",
         "Email":"borisov@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ko-Ju Chuang",
@@ -1501,31 +1501,31 @@
         "Position":"Postdoc",
         "Email":"ko-ju.chuang@uni-jena.de",
         "Website":"https:\/\/kojuchuang.wixsite.com\/chuang",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Kotomi Taniguchi",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Kristina Moe",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Kuntal Chatterjee",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Grad",
         "Email":"Kuntalch@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Kyle Crabtree",
@@ -1541,7 +1541,7 @@
         "Position":"Grad",
         "Email":"kvirgil@caltech.edu",
         "Website":"http:\/\/web.gps.caltech.edu\/~gab\/kyle.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Larry R. Nittler",
@@ -1557,7 +1557,7 @@
         "Position":"Associate Professor",
         "Email":"lars.kristensen@nbi.ku.dk",
         "Website":"https:\/\/www.nbi.ku.dk\/english\/staff\/?pure=en%2Fpersons%2Flars-egstroem-kristensen(399d2697-9c92-4e43-ad59-f673d1d45520)%2Fpublications.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Laura Colzi",
@@ -1565,15 +1565,15 @@
         "Position":"Postdoc",
         "Email":"lcolzi@cab.inta-csic.es",
         "Website":"https:\/\/cab.inta-csic.es\/en\/investigadores\/758\/laura-colzi",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Laure Bscs",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Laurent Margules",
@@ -1581,7 +1581,7 @@
         "Position":"Professor",
         "Email":"laurent.margules@univ-lille1.fr",
         "Website":"https:\/\/phlam.univ-lille.fr\/en\/research\/mpi\/members\/spectro\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Lauri Halonen",
@@ -1589,23 +1589,23 @@
         "Position":"Professor",
         "Email":"lauri.halonen@helsinki.fi",
         "Website":"https:\/\/researchportal.helsinki.fi\/en\/persons\/lauri-halonen",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Laurynas Pa\u0161kevi\u010dius",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Layal Chahine",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Leah Dodson",
@@ -1613,7 +1613,7 @@
         "Position":"Assistant Professor",
         "Email":"ldodson@umd.edu",
         "Website":"http:\/\/blog.umd.edu\/dodson\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Leen Decin",
@@ -1621,7 +1621,7 @@
         "Position":"Professor",
         "Email":"leen.decin@kuleuven.be",
         "Website":"https:\/\/www.kuleuven.be\/wieiswie\/en\/person\/00003609",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Leonid Surin",
@@ -1629,15 +1629,15 @@
         "Position":"Postdoc",
         "Email":"surin@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Li Zeng",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Liem Ngo",
@@ -1645,15 +1645,15 @@
         "Position":"Grad",
         "Email":"ngo@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Liton Majumdar",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Long Zhao",
@@ -1661,15 +1661,15 @@
         "Position":"Postdoc",
         "Email":"zhaolong@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Lucile Rutkowski",
         "Institution":"Universit\u00e9 de Rennes1",
         "Position":"CNRS Researcher",
         "Email":"lucile.rutkowski@univ-rennes1.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Lucy Ziurys",
@@ -1677,7 +1677,7 @@
         "Position":"Professor",
         "Email":"lziurys@email.arizona.edu",
         "Website":"https:\/\/www.as.arizona.edu\/people\/faculty\/lucy-ziurys",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ludovic Biennier",
@@ -1685,7 +1685,7 @@
         "Position":"Senior Scientist",
         "Email":"ludovic.biennier@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/interlocuteurs\/ludovic-biennier",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"M. Samy El-Shall",
@@ -1693,7 +1693,7 @@
         "Position":"Professor",
         "Email":"mselshal@vcu.edu",
         "Website":"https:\/\/chemistry.vcu.edu\/people\/faculty\/el-shall.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Mahya Sadaghiani",
@@ -1701,7 +1701,7 @@
         "Position":"Grad",
         "Email":"sadaghiani@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Marcel Bast",
@@ -1709,7 +1709,7 @@
         "Position":"Grad",
         "Email":"bast@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Maria Camarca",
@@ -1717,7 +1717,7 @@
         "Position":"Grad",
         "Email":"mcamarca@caltech.edu",
         "Website":"http:\/\/web.gps.caltech.edu\/~gab\/maria.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Maria Cunningham",
@@ -1725,7 +1725,7 @@
         "Position":"Researcher",
         "Email":"maria.cunningham@unsw.edu.au",
         "Website":"https:\/\/research.unsw.edu.au\/people\/dr-maria-cunningham",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Maria Jose Maureira",
@@ -1733,15 +1733,15 @@
         "Position":"Postdoc",
         "Email":"maureira@mpe.mpg.de",
         "Website":"https:\/\/www.mpe.mpg.de\/~maureira\/home",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Maria Kirsanova",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Marie Van de Sande",
@@ -1757,15 +1757,15 @@
         "Position":"Faculty",
         "Email":"chabot@ipno.in2p3.fr",
         "Website":"https:\/\/annuaire.in2p3.fr\/en\/agents\/Y249Q0hBQk9UIE1hcmluIGNjN2NmNjA0LTJiZmMtNDUxZi1hMTE5LWZkNTk5NGY2NDdjZixvdT1wZW9wbGUsZGM9aW4ycDMsZGM9ZnI%253D\/show",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Marittiello Ottanta",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Marius Hermanns",
@@ -1773,7 +1773,7 @@
         "Position":"Grad",
         "Email":"hermanns@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Mark Blitz",
@@ -1781,7 +1781,7 @@
         "Position":"Research Fellow",
         "Email":"m.blitz@leeds.ac.uk",
         "Website":"https:\/\/eps.leeds.ac.uk\/chemistry\/staff\/4262\/dr-mark-blitz",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Mark Gorski",
@@ -1789,7 +1789,7 @@
         "Position":"Postdoc",
         "Email":"mark.gorski@chalmers.se",
         "Website":"https:\/\/www.chalmers.se\/en\/staff\/Pages\/mark-gorski.aspx",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Mark Wolfire",
@@ -1797,31 +1797,31 @@
         "Position":"Principal Research Scientist",
         "Email":"mwolfire@astro.umd.edu",
         "Website":"https:\/\/www.astro.umd.edu\/people\/mwolfire.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Marko Forstel",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Postdoc",
         "Email":"markof@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Markus Roeliig",
         "Institution":"Universitaet zu Koeln",
         "Position":"Senior Researcher",
-        "Email":"",
+        "Email":null,
         "Website":"http:\/\/www.astro.uni-koeln.de\/staff\/roellig\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Marta De Simone",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"M\u00e5rten Skogh",
@@ -1829,7 +1829,7 @@
         "Position":"Grad",
         "Email":"skoghm@chalmers.se",
         "Website":"https:\/\/rahmlab.com\/group-members\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Martin Andrew Cordiner",
@@ -1844,8 +1844,8 @@
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Grad",
         "Email":"Martin.George@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Martin Head-Gordon",
@@ -1853,7 +1853,7 @@
         "Position":"Professor",
         "Email":"mhg@cchem.berkeley.edu",
         "Website":"https:\/\/mhggroupberkeley.com\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Martin Holdren",
@@ -1861,7 +1861,7 @@
         "Position":"Grad",
         "Email":"msh6yz@virginia.edu",
         "Website":"https:\/\/chemistry.as.virginia.edu\/holdren",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Martin Rahm",
@@ -1877,23 +1877,23 @@
         "Position":"Professor",
         "Email":"maryvonne.gerin@lra.ens.fr",
         "Website":"http:\/\/www.lra.ens.fr\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Marzio Rosi",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Mathilde Bouvier",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Matt DeSelm",
@@ -1901,7 +1901,7 @@
         "Position":"Grad",
         "Email":"md9dy@virginia.edu",
         "Website":"https:\/\/garrodgroup.as.virginia.edu\/people\/profile\/md9dy",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Matthias T\u00f6pfer",
@@ -1909,30 +1909,30 @@
         "Position":"Grad",
         "Email":"toepfer@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Matthieu Besemer",
         "Institution":"Radboud University",
         "Position":"Grad",
         "Email":"m.besemer@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Mayank Saraswat",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Meenakshi Wadhwa",
         "Institution":"Arizona State University",
         "Position":"Professor",
         "Email":"Meenakshi.Wadhwa@asu.edu",
-        "Website":"",
+        "Website":null,
         "Twitter":"@minwadhwa"
     },
     {
@@ -1940,8 +1940,8 @@
         "Institution":"DESY Hamburg",
         "Position":"Professor",
         "Email":"melanie.schnell@mpsd.mpg.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Merel van 't Hoff",
@@ -1949,7 +1949,7 @@
         "Position":"Assistant Professor",
         "Email":"mervth@umich.edu",
         "Website":"https:\/\/www.merelvanthoff.com\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Michael A. Duncan",
@@ -1957,7 +1957,7 @@
         "Position":"Professor",
         "Email":"maduncan@uga.edu",
         "Website":"http:\/\/research.franklin.uga.edu\/maduncan\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Michael C. McCarthy",
@@ -1965,15 +1965,15 @@
         "Position":"Researcher",
         "Email":"mmccarthy@cfa.harvard.edu",
         "Website":"https:\/\/www.cfa.harvard.edu\/amp\/mccarthygroup\/index.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Michal Bulak",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Michel Nuevo",
@@ -1981,7 +1981,7 @@
         "Position":"BAER Institute Research Scientist",
         "Email":"Michel.Nuevo-1@nasa.gov",
         "Website":"https:\/\/www.nasa.gov\/content\/michel-nuevo",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Michiel Hogerheijde",
@@ -1989,7 +1989,7 @@
         "Position":"Associate Professor",
         "Email":"michiel@strw.leidenuniv.nl",
         "Website":"https:\/\/home.strw.leidenuniv.nl\/~michiel\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Mihkel Kama",
@@ -1997,23 +1997,23 @@
         "Position":"Postdoc",
         "Email":"mihkel.kama@ut.ee",
         "Website":"https:\/\/sisu.ut.ee\/mkama",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Milan Sil",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Mirahmad Haghi",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Miwha Jin",
@@ -2021,7 +2021,11 @@
         "Position":"Grad",
         "Email":"mj2ua@virginia.edu",
         "Website":"https:\/\/garrodgroup.as.virginia.edu\/people\/profile\/mj2ua",
+<<<<<<< HEAD:public/data.json
         "Twitter":""
+=======
+        "Twitter":null
+>>>>>>> dev:public/whoswho.json
     },
     {
         "Name":"N. Fabian Kleimeier",
@@ -2029,7 +2033,7 @@
         "Position":"Postdoc",
         "Email":"nfk@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Nadia Balucani",
@@ -2037,7 +2041,7 @@
         "Position":"Professor",
         "Email":"nadia.balucani@unipg.it",
         "Website":"https:\/\/nadiabalucani.weebly.com\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Nadine Wehres",
@@ -2045,15 +2049,15 @@
         "Position":"Postdoc",
         "Email":"wehres@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Nassim Tanha",
         "Institution":"I. Physikalisches Institut, Universit\u00e4t zu K\u00f6ln",
         "Position":"Grad",
         "Email":"tanha@ph1.uni-koeln.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Nathalie Carrasco",
@@ -2061,7 +2065,7 @@
         "Position":"Professor",
         "Email":"nathalie.carrasco@latmos.ipsl.fr",
         "Website":"http:\/\/carrasco.page.latmos.ipsl.fr\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Nathan DeYonker",
@@ -2069,22 +2073,22 @@
         "Position":"Professor",
         "Email":"ndyonker@memphis.edu",
         "Website":"https:\/\/www.memphis.edu\/chem\/people\/faculty\/deyonker.php",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ngo Thanh Liem",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Nienke van der Marel",
         "Institution":"University of Victoria",
-        "Position":"",
-        "Email":"",
-        "Website":"",
+        "Position":null,
+        "Email":null,
+        "Website":null,
         "Twitter":"@NienkeMarel"
     },
     {
@@ -2092,24 +2096,24 @@
         "Institution":"The Open University \/ University of Kent",
         "Position":"Professor",
         "Email":"nigel.mason@open.ac.uk",
-        "Website":"",
+        "Website":null,
         "Twitter":"@NigelJMason1"
     },
     {
         "Name":"Nureshan Dias",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Odysseas Dionatos",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Olivia Wilkins",
@@ -2125,7 +2129,7 @@
         "Position":"Grad",
         "Email":"zingsheim@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Omar Abdelkader Khedaoui",
@@ -2133,7 +2137,7 @@
         "Position":"Grad",
         "Email":"omar.abdelkaderkhedaoui@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/interlocuteurs\/omar-abdelkader-khedaoui",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Oskar Asvany",
@@ -2141,7 +2145,7 @@
         "Position":"Postdoc",
         "Email":"asvany@ph1.uni-koeln.de",
         "Website":"https:\/\/hera.ph1.uni-koeln.de\/~asvany\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Otto Dopfer",
@@ -2149,23 +2153,23 @@
         "Position":"Professor",
         "Email":"dopfer@physik.tu-berlin.de",
         "Website":"https:\/\/www.ioap.tu-berlin.de\/menue\/arbeitsgruppen\/ag_dopfer\/ag_dopfer\/parameter\/en\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"P. Brandon Carroll",
         "Institution":"Harvard-Simthsonian Center for Astrophysics",
         "Position":"Postdoc",
         "Email":"paul.carroll@cfa",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Panagiotis Kalaitzis",
         "Institution":"Radboud University",
         "Position":"Postdoc",
         "Email":"p.kalaitzis@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Paola Caselli",
@@ -2173,7 +2177,7 @@
         "Position":"Professor",
         "Email":"caselli@mpe.mpg.de",
         "Website":"http:\/\/www.mpe.mpg.de\/CAS",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Paolo Tosi",
@@ -2181,31 +2185,31 @@
         "Position":"Professor",
         "Email":"paolo.tosi@unitn.it",
         "Website":"http:\/\/www.science.unitn.it\/labfm\/pmwiki\/pmwiki.php?n=Tosi.Tosi",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Parker Crandall",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Grad",
         "Email":"parker.crandall@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Paul Apaullo Woods",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Paul Woods",
         "Institution":"Nature",
         "Position":"Editor",
         "Email":"p.woods@qub.ac.uk",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Peter Hoppe",
@@ -2213,7 +2217,7 @@
         "Position":"Senior Research Scientist",
         "Email":"peter.hoppe@mpic.de",
         "Website":"https:\/\/www.mpic.de\/3538292\/Hoppe_Group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Peter Schilke",
@@ -2221,7 +2225,7 @@
         "Position":"Professor",
         "Email":"schilke@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/en\/schilke\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Phalgun Lolur",
@@ -2229,7 +2233,7 @@
         "Position":"Postdoc",
         "Email":"phalgun@chalmers.se",
         "Website":"https:\/\/rahmlab.com\/group-members\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Philipp Schmid",
@@ -2237,7 +2241,7 @@
         "Position":"Postdoc",
         "Email":"schmid@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Philipp Schreier",
@@ -2245,15 +2249,15 @@
         "Position":"Grad",
         "Email":"schreier@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Pierre Gratier",
         "Institution":"Laboratoire d'Astrophysique de Bordeaux",
         "Position":"Postdoc",
         "Email":"pierre.gratier@u-bordeaux.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Pragya Chopra",
@@ -2261,15 +2265,15 @@
         "Position":"Grad",
         "Email":"pragya.chopra@desy.de, ",
         "Website":"https:\/\/www.mpsd.mpg.de\/person\/59565\/2736",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Pranjal Samarth",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Ralf Kaiser",
@@ -2277,23 +2281,23 @@
         "Position":"Professor",
         "Email":"ralfk@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ranil Gurusinge",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ranjith Kumar P M",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Rebeca Aladro",
@@ -2301,31 +2305,31 @@
         "Position":"Scientific Staff",
         "Email":"aladro@mpifr-bonn.mpg.de",
         "Website":"https:\/\/www.mpifr-bonn.mpg.de\/person\/54352\/2169",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Riccardo Urso",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Robert Georges",
         "Institution":"IPR, Universit\u00e9 de Rennes 1",
         "Position":"Professor",
         "Email":"robert.georges@univ-rennes1.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Robert Radloff",
         "Institution":"Institut f\u00fcr Optik und Atomare Physik, TU Berlin",
         "Position":"Student Assistant",
         "Email":"radloff@physik.tu-berlin.de",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Robin Garrod",
@@ -2333,7 +2337,7 @@
         "Position":"Assistant Professor; Adjunct Assistant Professor",
         "Email":"rg5qp@virginia.edu",
         "Website":"http:\/\/hosting.astro.cornell.edu\/~rgarrod\/, https:\/\/garrodgroup.as.virginia.edu\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Roland Wester",
@@ -2341,7 +2345,7 @@
         "Position":"Professor",
         "Email":"roland.wester@uibk.ac.at",
         "Website":"https:\/\/www.uibk.ac.at\/ionen-angewandte-physik\/molsyst\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Romane Le Gal",
@@ -2357,7 +2361,7 @@
         "Position":"Grad",
         "Email":"rhgolshan@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ryan C Fortenberry",
@@ -2365,15 +2369,15 @@
         "Position":"Assistant Professor",
         "Email":"r410@olemiss.edu",
         "Website":"https:\/\/chemistry.olemiss.edu\/ryan-fortenberry\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Sacha Gvn",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Samantha Scibelli",
@@ -2397,7 +2401,7 @@
         "Position":"Grad",
         "Email":"s.wiersma@science.ru.nl",
         "Website":"https:\/\/www.ru.nl\/msd\/group\/group\/wiersma\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Sankhabrata Chandra",
@@ -2405,7 +2409,7 @@
         "Position":"Postdoc",
         "Email":"sankhabr@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Santosh Singh",
@@ -2413,15 +2417,15 @@
         "Position":"Postdoc",
         "Email":"ss91@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Sebastiaan Krijt",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"S\u00e9bastien Le Picard",
@@ -2429,15 +2433,15 @@
         "Position":"Professor",
         "Email":"sebastien.le-picard@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/interlocuteurs\/sebastien-le-picard",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"S\u00e9bastien Morales",
         "Institution":"University of Bordeaux",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Serena Viti",
@@ -2445,7 +2449,7 @@
         "Position":"Professor",
         "Email":"viti@strw.leidenuniv.nl",
         "Website":"https:\/\/www.universiteitleiden.nl\/en\/staffmembers\/serena-viti#tab-1",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Sergio Ioppolo",
@@ -2453,15 +2457,15 @@
         "Position":"Research Fellow and Lecturer",
         "Email":"s.ioppolo@qmul.ac.uk",
         "Website":"http:\/\/eecs.qmul.ac.uk\/profiles\/ioppolosergio.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Shamemah Thawoos",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Shane Goettl",
@@ -2469,23 +2473,23 @@
         "Position":"Grad",
         "Email":"sgoettl@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Sheng-Jun S\u00e9bastien Lin",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Shiblee Ratan Barua",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Shreyak Banhatti",
@@ -2493,7 +2497,7 @@
         "Position":"Grad",
         "Email":"banhatti@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Shubhadip Chakraborty",
@@ -2508,16 +2512,16 @@
         "Institution":"Radboud University",
         "Position":"Postdoc",
         "Email":"S.Tatoli@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Siwen Wang",
         "Institution":"Radboud University",
         "Position":"Grad",
         "Email":"siwen.wang@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Sommer Johansen",
@@ -2532,8 +2536,8 @@
         "Institution":"Universit\u00e9 de Rennes 1",
         "Position":"Lecturer\/Researcher",
         "Email":"sophie.carles@univ-rennes1.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Srinivas Doddipatla",
@@ -2541,15 +2545,15 @@
         "Position":"Postdoc",
         "Email":"ds37@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Stach Kuijpers",
         "Institution":"Radboud University",
         "Position":"Grad",
         "Email":"stach.kuijpers@ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Stefan Brackertz",
@@ -2557,7 +2561,7 @@
         "Position":"Grad",
         "Email":"brackertz@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Stefanie Milam",
@@ -2565,7 +2569,7 @@
         "Position":"Research Physical Scientist",
         "Email":"stefanie.n.milam@nasa.gov",
         "Website":"https:\/\/science.gsfc.nasa.gov\/sed\/bio\/stefanie.n.milam",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Stefanie Walch-Gassner",
@@ -2573,7 +2577,7 @@
         "Position":"Professor",
         "Email":"walch@ph1.uni-koeln.de",
         "Website":"https:\/\/hera.ph1.uni-koeln.de\/~walch\/Steffi_Walchs_homepage\/Main.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Stefano Racioppi",
@@ -2581,7 +2585,7 @@
         "Position":"Postdoc",
         "Email":"racioppi@chalmers.se",
         "Website":"https:\/\/rahmlab.com\/group-members\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Stephan Schlemmer",
@@ -2589,7 +2593,7 @@
         "Position":"Professor",
         "Email":"schlemmer@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/curriculum-vitae",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Stephen Brotton",
@@ -2597,7 +2601,7 @@
         "Position":"Postdoc",
         "Email":"sbrotton@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Stephen Price",
@@ -2605,7 +2609,7 @@
         "Position":"Professor",
         "Email":"s.d.price@ucl.ac.uk",
         "Website":"https:\/\/www.ucl.ac.uk\/chemistry\/people\/stephen-price",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Steven Doty",
@@ -2613,23 +2617,23 @@
         "Position":"Professor",
         "Email":"doty@denison.edu",
         "Website":"http:\/\/personal.denison.edu\/~doty\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Strazzulla Giovanni",
         "Institution":"Catania Astrophysical Observatory",
-        "Position":"",
+        "Position":null,
         "Email":"gianni@oact.inaf.it",
         "Website":"http:\/\/www.oact.inaf.it\/weblab\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"S\u00fc Suri",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Susanna Widicus Weaver",
@@ -2637,7 +2641,7 @@
         "Position":"Associate Professor",
         "Email":"susanna.widicus.weaver@emory.edu",
         "Website":"http:\/\/chemistry.emory.edu\/faculty\/widicusweaver\/susanna.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Susanne Wampfler",
@@ -2645,7 +2649,7 @@
         "Position":"CSH Deputy Director and Eccellenza Professorial Fellow ",
         "Email":"susanne.wampfler@csh.unibe.ch",
         "Website":"https:\/\/www.csh.unibe.ch\/about_us\/people\/professors\/prof_dr_susanne_wampfler\/index_eng.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Sven Thorwirth",
@@ -2653,7 +2657,7 @@
         "Position":"Postdoc",
         "Email":"sthorwirth@ph1.uni-koeln.de",
         "Website":"http:\/\/www.xsven.de\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"T. Daniel Crawford",
@@ -2661,22 +2665,22 @@
         "Position":"Professor",
         "Email":"crawdad@vt.edu",
         "Website":"https:\/\/crawford.chem.vt.edu\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Tahereh Alavi",
         "Institution":"University of Missouri",
-        "Position":"",
-        "Email":"",
+        "Position":null,
+        "Email":null,
         "Website":"http:\/\/faculty.missouri.edu\/suitsa\/people\/current-group-members.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ta\u00efssa Danilovich",
         "Institution":"KU Leuven",
         "Position":"Postdoc",
         "Email":"taissa.danilovich@kuleuven.be",
-        "Website":"",
+        "Website":null,
         "Twitter":"@stellalchemist"
     },
     {
@@ -2685,7 +2689,7 @@
         "Position":"Postdoc",
         "Email":"a.l.m.lamberts@lic.leidenuniv.nl",
         "Website":"https:\/\/www.universiteitleiden.nl\/en\/staffmembers\/thanja-lamberts#tab-1",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Th\u00e9o Guillaume",
@@ -2693,7 +2697,7 @@
         "Position":"Grad",
         "Email":"theo.guillaume@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/interlocuteurs\/theo-guillaume",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Thom Orlando",
@@ -2701,7 +2705,7 @@
         "Position":"Professor",
         "Email":"thomas.orlando@chemistry.gatech.edu",
         "Website":"https:\/\/chemistry.gatech.edu\/faculty\/Orlando\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Thomas Hearne",
@@ -2709,7 +2713,7 @@
         "Position":"Postdoc",
         "Email":"thomas.hearne@univ-rennes1.fr",
         "Website":"https:\/\/ipr.univ-rennes1.fr\/en\/interlocutors\/thomas-hearne",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Thomas Henning",
@@ -2717,7 +2721,7 @@
         "Position":"Director, PSFD",
         "Email":"henning@mpia.de",
         "Website":"https:\/\/www.mpia.de\/henning",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Thomas M\u00f6ller",
@@ -2725,7 +2729,7 @@
         "Position":"Postdoc",
         "Email":"moeller@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Thomas Salomon",
@@ -2733,15 +2737,15 @@
         "Position":"Grad",
         "Email":"salomon@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schlemmer\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Tim de Jongh",
         "Institution":"Radboud University",
         "Position":"Grad",
         "Email":"t.dejongh@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Tim Lichtenberg",
@@ -2749,7 +2753,7 @@
         "Position":"Postdoc",
         "Email":"tim.lichtenberg@physics.ox.ac.uk",
         "Website":"https:\/\/timlichtenberg.net\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Tom Millar",
@@ -2765,7 +2769,7 @@
         "Position":"Assistant Professor",
         "Email":"tomkam@ncac.torun.pl",
         "Website":"http:\/\/www.ncac.torun.pl\/~tomkam\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Tyler Pauly",
@@ -2773,7 +2777,7 @@
         "Position":"Postdoc",
         "Email":"tpauly@stsci.edu",
         "Website":"https:\/\/www.stsci.edu\/stsci-research\/research-directory\/tyler-pauly",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Ujjwal Panda",
@@ -2785,19 +2789,19 @@
     },
     {
         "Name":"\u00dcmit Kavak",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Valentine Wakelam",
         "Institution":"Universit\u00e9 de Bordeaux",
         "Position":"CNRS Researcher",
         "Email":"valentine.wakelam@u-bordeaux.fr",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Veena Vadarnattom Shaji",
@@ -2805,7 +2809,7 @@
         "Position":"Postdoc",
         "Email":"veena@ph1.uni-koeln.de",
         "Website":"https:\/\/astro.uni-koeln.de\/schilke\/research-group",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Veronica Allen",
@@ -2820,16 +2824,16 @@
         "Institution":"Radboud University",
         "Position":"Grad",
         "Email":"v.plomp@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Viviana Guzman",
-        "Institution":"",
-        "Position":"",
-        "Email":"",
-        "Website":"",
-        "Twitter":""
+        "Institution":null,
+        "Position":null,
+        "Email":null,
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Will Robson Monteiro Rocha",
@@ -2837,7 +2841,7 @@
         "Position":"Postdoc",
         "Email":"will.rocha@nbi.ku.dk",
         "Website":"https:\/\/www.nbi.ku.dk\/english\/staff\/?pure=en\/persons\/625831",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Wim Ubachs",
@@ -2845,7 +2849,7 @@
         "Position":"Professor",
         "Email":"w.m.g.ubachs@vu.nl",
         "Website":"http:\/\/www.nat.vu.nl\/~wimu\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Wolf Geppert",
@@ -2853,7 +2857,7 @@
         "Position":"Director",
         "Email":"wgeppert@fysik.su.se",
         "Website":"http:\/\/www.abc.geo.su.se\/index.php\/people\/83-wolf-geppert",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Wybren Jan Buma",
@@ -2861,7 +2865,7 @@
         "Position":"Professor",
         "Email":"W.J.Buma@uva.nl",
         "Website":"https:\/\/www.uva.nl\/en\/profile\/b\/u\/w.j.buma\/w.j.buma.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Xander Tielens",
@@ -2869,15 +2873,15 @@
         "Position":"Emeritus Professor",
         "Email":"a.g.g.m.tielens@strw.leidenuniv.nl",
         "Website":"https:\/\/www.universiteitleiden.nl\/en\/staffmembers\/xander-tielens#tab-1",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Xu-Dong Wang",
         "Institution":"Radboud University",
         "Position":"Postdoc",
         "Email":"x.wang@science.ru.nl",
-        "Website":"",
-        "Twitter":""
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Yuri Aikawa",
@@ -2885,7 +2889,7 @@
         "Position":"Professor",
         "Email":"aikawa@astron.s.u-tokyo.ac.jp",
         "Website":"https:\/\/www.s.u-tokyo.ac.jp\/en\/people\/aikawa_yuri\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Yves Benilan",
@@ -2893,13 +2897,13 @@
         "Position":"Professor",
         "Email":"yves.benilan@lisa.u-pec.fr",
         "Website":"http:\/\/www.lisa.u-pec.fr\/~benilan\/",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Zachary Buchanan",
         "Institution":"University of California Davis",
         "Position":"Grad",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/crabtreelab.ucdavis.edu\/zsb",
         "Twitter":"@UCBuchanan"
     },
@@ -2909,14 +2913,14 @@
         "Position":"Postdoc",
         "Email":"zyang@hawaii.edu",
         "Website":"https:\/\/uhmreactiondynamics.org\/crew.html",
-        "Twitter":""
+        "Twitter":null
     },
     {
         "Name":"Zhongxing Xu",
         "Institution":"University of California Davis",
         "Position":"Grad",
-        "Email":"",
+        "Email":null,
         "Website":"https:\/\/crabtreelab.ucdavis.edu\/node\/9",
-        "Twitter":""
+        "Twitter":null
     }
 ]

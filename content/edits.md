@@ -1,0 +1,3 @@
+If you saw any contact details in the list that were missing or incorrect, or if you know of astrochemists who haven't been added to this list yet, then you are in the right place! Fill in the form below, and submit and edit to the list. Except for the name, all fields are *optional*. That is intentional. While this list aims for complete data coverage, it cannot do anything about human memory. You may not remember all of the details below, whether they are your own, or somebody else's. Thus, the human beings behind this list, such as myself, take responsibility for tracking down each name on this list and filling in the fields that are missing.
+
+**PS**: If you can fill in all the fields, great! You have really helped us out!

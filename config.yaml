@@ -1,0 +1,59 @@
+meta:
+  name: "whoswho"
+  version: "1.0.0"
+  author: "Ujjwal Panda"
+  license: "MIT License"
+  license_file: "LICENSE"
+  long_description: "README.md"
+  email: "ujjwalpanda97@gmail.com"
+  description: "A list of astrochemists from across the globe!"
+
+dirs:
+  pages: "pages"
+  public: "public"
+  templates: "templates"
+
+urls:
+  main: "https://whoswho.astrogewgaw.com"
+  repo: "https://github.com/astrogewgaw/whoswho"
+  issues: "https://github.com/astrogewgaw/whoswho/issues"
+  discussions: "https://github.com/astrogewgaw/whoswho/discussions"
+  
+  data: >-
+    https://
+    docs.google.com/
+    spreadsheets/
+    d/
+    e/
+    2PACX-
+    1vQkbCd9kEllq5SpaH13VxJEtw1k7eN3VdFTQetTP7udL10I0U
+    -erve4IqotzOhDlp9ug
+    -7ANoFqGpka/
+    pub?
+    gid=690927575&
+    single=true&
+    output=csv
+
+settings:
+  pages: 
+    - "about"
+    - "data"
+    - "edits"
+    - "globe"
+
+
+  pgctx: "PageHCF"
+
+  gutter: 15
+
+  pgalign: "center"
+  mnalign: "center"
+  ttalign: "center"
+  txalign: "justify"
+
+  bgcolor: "black"
+  fgcolor: "white"
+
+  bdfont: "Cantarell"
+  hdfont: "Fredoka One"
+  ttfont: "Bungee Shade"

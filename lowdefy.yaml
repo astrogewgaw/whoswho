@@ -1,20 +1,40 @@
+# Copyright (c) 2021 Ujjwal Panda
+#
+# This is the main configuration file of the Who's Who web app,
+# powered by the Lowdefy framework (https://lowdefy.com). All
+# YAML and Python files are licensed under the MIT license.
+
 name: whoswho
-lowdefy: 3.18.1
+lowdefy: 3.21.1
 licence: MIT License
 
+# Configure the web app to use "about.yaml" as the home page.
+config:
+  homePageId: about
+
+# Appending custom code to the header that will enable
+# us to use Google Fonts in our application.
 app:
   html:
-    appendHead: |
-      <!-- Google Fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka+One&display=swap" rel="stylesheet">
-      <!-- End of Google Fonts -->
+    appendHead:
+      _ref: templates/head.html
 
+
+# Adding the AgGridAlpine block type. This will be used to
+# display the data from the Who's Who database as a dynamic
+# table, powered by Javascript. This theme is recommended
+# by the AgGrid developers for use with most applications.
 types:
   AgGridAlpine:
     url: https://blocks-cdn.lowdefy.com/v3.12.3/blocks-aggrid/meta/AgGridAlpine.json
 
+
+# Adding a connection to the Google Sheets API. This is not
+# used to display the data, but is used to take inputs via
+# a form on the edits page. These inouts are stored in the
+# Google Sheet and are added to the main list if the person
+# is not already present in the sheet, or if they are present
+# but their contact details have changed.
 connections:  
   - id: edit_sheet
     type: GoogleSheet
@@ -28,22 +48,28 @@ connections:
       sheetId: '892548616'
       write: true
 
+
+# Disabling the default menu. The only reason to do this is
+# customizability: the default menu does not take any style
+# attributes as input, but any menus that I make will do so.
 menus:
   - id: default
-    links:
-      - id: home_menu
-        type: MenuLink
-        pageId: home
-        properties:
-          title: Home
-          icon: HomeOutlined
-      - id: edit_menu
-        type: MenuLink
-        pageId: edit
-        properties:
-          title: Submit Edit
-          icon: FormOutlined
+    links: []
 
+
+# Adding pages to the web app. These are added as references
+# to the appropriate YAML files in the pages directory. There
+# are four pages in the Who's Who application:
+#
+#   1. An about page. This describes what the Who's Who is all
+#      about, how it started, and how to contribute to it.
+#   2. The list. This is where the list is displayed as a table.
+#   3. The edits form. This is where any user can submit edits
+#      to the Who's Who database.
+#   4. The world map. This is where we display a dynamic world
+#      map of astrochemists.
 pages:
-  - _ref: pages/home.yaml
-  - _ref: pages/edit.yaml
+  - _ref: pages/about.yaml
+  - _ref: pages/data.yaml
+  - _ref: pages/edits.yaml
+  - _ref: pages/globe.yaml

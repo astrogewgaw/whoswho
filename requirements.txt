@@ -1,2 +1,7 @@
+attr
+toml
+rich
+Mako
 arrow
+invoke
 pandas

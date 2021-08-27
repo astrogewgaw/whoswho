@@ -1,5 +1,12 @@
-id: edit
-type: PageHeaderMenu
+id: edits
+type: PageHCF
+properties:
+  title: Submit edits to Who's Who
+  style:
+    text-align: center
+    font-family: Fredoka One
+    background-color: black
+
 
 requests:
   - id: save_data
@@ -20,63 +27,94 @@ requests:
         person_twitter:
           _state: person_twitter
 
-properties:
-  title: Submit edits to the Who's Who list.
-  style:
-    background-color: black
-
-layout:
-  contentJustify: center
 
 blocks:
+
+  
+  - id: menu
+    type: Menu
+    style:
+      text-align: center
+      font-family: Fredoka One
+    properties:
+      mode: horizontal
+      links:
+        - id: about_menu
+          type: MenuLink
+          pageId: about
+          properties:
+            title: About
+        - id: data_menu
+          type: MenuLink
+          pageId: data
+          properties:
+            title: Data
+        - id: edits_menu
+          type: MenuLink
+          pageId: edits
+          properties:
+            title: Edits
+        - id: globe_menu
+          type: MenuLink
+          pageId: globe
+          properties:
+            title: Globe
+  
+
   
   - id: cover
     type: Card
     layout:
       contentGutter: 15
     blocks:
-  
+      
       - id: title
         type: Title
         properties:
-          content: Submit edits to the Who's Who list.
+          content: Submit edits to Who's Who
           level: 1
           style:
             text-align: center
-            font-family: Fredoka One
-          underline: true
-  
+            font-family: Bungee Shade
+      
+      
+      - id: intro
+        type: Markdown
+        properties:
+          style:
+            text-align: justify
+            font-family: Cantarell
+          content:
+            _ref: content/edits.md
+            
       - id: person_name
         type: TextInput
         required: true
         properties:
           title: Name
-  
       - id: person_institution
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Institution
-  
       - id: person_position
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Position
-  
       - id: person_email
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Email
-  
       - id: person_website
         type: TextInput
+        required: false
         properties:
           title: Website
-  
       - id: person_twitter
         type: TextInput
+        required: false
         properties:
           title: Twitter
   
@@ -89,8 +127,6 @@ blocks:
           title: Reset
           type: default
           icon: ClearOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: reset
@@ -105,8 +141,6 @@ blocks:
           title: Submit
           type: primary
           icon: SaveOutlined
-          style:
-            font-family: Fredoka One
         events:
           onClick:
             - id: validate
@@ -116,3 +150,16 @@ blocks:
               params: save_data
             - id: reset
               type: Reset
+
+      
+      - id: footer
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+          skipHtml: true
+          content: |
+            
+            Copyright &#xa9; 2021 Ujjwal Panda
+      
+  

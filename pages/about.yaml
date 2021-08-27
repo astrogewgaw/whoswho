@@ -1,0 +1,124 @@
+id: about
+type: PageHCF
+properties:
+  title: Who's Who in Astrochemistry
+  style:
+    text-align: center
+    font-family: Fredoka One
+    background-color: black
+
+
+
+blocks:
+
+  
+  - id: menu
+    type: Menu
+    style:
+      text-align: center
+      font-family: Fredoka One
+    properties:
+      mode: horizontal
+      links:
+        - id: about_menu
+          type: MenuLink
+          pageId: about
+          properties:
+            title: About
+        - id: data_menu
+          type: MenuLink
+          pageId: data
+          properties:
+            title: Data
+        - id: edits_menu
+          type: MenuLink
+          pageId: edits
+          properties:
+            title: Edits
+        - id: globe_menu
+          type: MenuLink
+          pageId: globe
+          properties:
+            title: Globe
+  
+
+  
+  - id: cover
+    type: Card
+    layout:
+      contentGutter: 15
+    blocks:
+      
+      - id: header
+        type: Markdown
+        properties:
+          content: |
+            ![Github Header][header]
+
+            [header]: https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/whoswho-header.png
+
+      
+      - id: netlify_status
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+          content: |
+            [![Netlify Status][deploy-status]][deploys]
+            
+            [deploys]: https://app.netlify.com/sites/whoswho/deploys
+            [deploy-status]: https://api.netlify.com/api/v1/badges/ebd6006f-31b2-4fb4-bde0-b358aee83986/deploy-status
+
+      - id: badges
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+          content: |
+            ![License][license]
+            [![Gitmoji][gitmoji-badge]][gitmoji]
+
+            ![Last Updated][updated]
+
+            ![Count][count]
+            ![Contactable][contactable]
+            ![Tweeters][tweeters]
+
+            [gitmoji]: https://gitmoji.dev
+            [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
+            [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
+            [count]: https://img.shields.io/badge/Astrochemists-365-blueviolet?style=for-the-badge
+            [tweeters]: https://img.shields.io/badge/Tweeters-51-blue?style=for-the-badge&logo=twitter            
+            [contactable]: https://img.shields.io/badge/Contactable-286-darkgreen?style=for-the-badge
+            [updated]: https://img.shields.io/badge/Last%20Updated-Saturday%2021%20August,%202021%2007:13:09%20pm%20UTC-purple?style=for-the-badge
+      
+      - id: subtitle
+        type: Title
+        properties:
+          level: 2
+          content: A list 📝 of astrochemists 🧪 from across the globe 🌏 !
+          style:
+            text-align: center
+            font-family: Fredoka One
+
+      - id: intro
+        type: Markdown
+        properties:
+          style:
+            text-align: justify
+            font-family: Cantarell
+          content:
+            _ref: content/about.md
+
+      
+      - id: footer
+        type: Markdown
+        properties:
+          style:
+            text-align: center
+          skipHtml: true
+          content: |
+            
+            Copyright &#xa9; 2021 Ujjwal Panda
+      
+  

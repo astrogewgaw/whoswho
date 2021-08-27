@@ -25,15 +25,14 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       # Running the script for scrapping.
       - name: Run the updating script.
-        run: |          
-          python update.py          
-          git add README.md
-          git add public/data.json
+        run: |
+          invoke update
+          invoke readme     
+          invoke compile
+          git add .
           git config --global user.name "whoswhobot"
           git config --global user.email "whoswho@example.com"                
           git commit -m "Updated whoswho: `date +'%Y-%m-%d %H:%M:%S'`" || true
-        env:
-          WHOSWHO_SHEET_URL: ${{ secrets.WHOSWHO_SHEET_URL }}
       # Pushing the changes.
       - name: Push the changes.
         uses: ad-m/github-push-action@master

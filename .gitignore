@@ -1,3 +1,7 @@
-.mypy_cache
-.lowdefy
 .env
+.vscode
+.lowdefy
+*.py[cod]
+__pycache__
+.mypy_cache
+.ipynb_checkpoints
