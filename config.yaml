@@ -54,6 +54,6 @@ settings:
   bgcolor: "black"
   fgcolor: "white"
 
-  bdfont: "Cantarell"
+  bdfont: "Space Mono"
   hdfont: "Fredoka One"
   ttfont: "Bungee Shade"
