@@ -63,5 +63,5 @@
             text-align: ${settings.txalign}
             font-family: ${settings.bdfont}
           content:
-            _ref: texts/about.md
+            _ref: content/${pgid}.md
 </%block>

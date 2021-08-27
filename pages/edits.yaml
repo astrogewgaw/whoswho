@@ -14,18 +14,18 @@ requests:
     connectionId: edit_sheet
     properties:
       row:
-      person_name:
-        _state: person_name
-      person_institution:
-        _state: person_institution
-      person_position:
-        _state: person_position
-      person_email:
-        _state: person_email
-      person_website:
-        _state: person_website
-      person_twitter:
-        _state: person_twitter
+        person_name:
+          _state: person_name
+        person_institution:
+          _state: person_institution
+        person_position:
+          _state: person_position
+        person_email:
+          _state: person_email
+        person_website:
+          _state: person_website
+        person_twitter:
+          _state: person_twitter
 
 
 blocks:
@@ -76,37 +76,45 @@ blocks:
           style:
             text-align: center
             font-family: Bungee Shade
-          underline: true
       
       
-      - id: person_namesettings.
+      - id: intro
+        type: Markdown
+        properties:
+          style:
+            text-align: justify
+            font-family: Cantarell
+          content:
+            _ref: content/edits.md
+            
+      - id: person_name
         type: TextInput
         required: true
         properties:
           title: Name
-      - id: person_institutionsettings.
+      - id: person_institution
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Institution
-      - id: person_positionsettings.
+      - id: person_position
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Position
-      - id: person_emailsettings.
+      - id: person_email
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Email
-      - id: person_websitesettings.
+      - id: person_website
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Website
-      - id: person_twittersettings.
+      - id: person_twitter
         type: TextInput
-        required: true
+        required: false
         properties:
           title: Twitter
   

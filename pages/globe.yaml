@@ -57,9 +57,17 @@ blocks:
           style:
             text-align: center
             font-family: Bungee Shade
-          underline: true
       
       
+      - id: intro
+        type: Markdown
+        properties:
+          style:
+            text-align: justify
+            font-family: Cantarell
+          content:
+            _ref: content/globe.md
+
       
       - id: footer
         type: Markdown

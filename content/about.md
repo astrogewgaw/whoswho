@@ -1,0 +1,8 @@
+**Astrochemistry** is the study of molecules in space. It is a highly interdisciplinary field, since it exists at the intersection of chemistry, physics and astronomy. Thus, finding people who are actively pursuing astrochemical research in an institution is never easy. This is where the [**Who's Who**][main] project comes in: it is an open-source, version-controlled, and community-maintained contact list of astrochemists from across the globe. Its purpose is simple: to help people connect with the astrochemical community, and to help this community connect with itself as well. I hope that this project helps students enter this field with help/guidance, fosters fruitful collaborations, and allows us to connect more with one another.
+
+This project cannot achieve any of its goals without support from many communities, whether it is the students desperately looking for guidance, the open-source community, or the astrochemical community. If you want to check out the source code, you can do so [**here**][repo]. If you see a bug, or have a feature you would like to request, drop in the [**issues**][issues] and we can talk! If you are an astrochemist, and you do not see your name or the name of a friend/collaborator on the list, feel free to submit an edit via the [**form**][edits]. You can also submit an edit if someone's contact details are wrong or have cheanged, or if you see a spelling mistake lurking around somewhere. All submissions are reviewed by actual human beings before being added to the list.
+
+[main]: https://whoswho.astrogewgaw.com
+[edits]: https://whoswho.astrogewgaw.com/edits
+[repo]: https://github.com/astrogewgaw/whoswho
+[issues]: https://github.com/astrogewgaw/whoswho/issues

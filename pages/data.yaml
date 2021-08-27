@@ -57,7 +57,6 @@ blocks:
           style:
             text-align: center
             font-family: Bungee Shade
-          underline: true
       
       
       - id: intro
@@ -66,8 +65,8 @@ blocks:
           style:
             text-align: justify
             font-family: Cantarell
-          content: |
-            The list.
+          content:
+            _ref: content/data.md
 
       - id: table
         type: AgGridAlpine

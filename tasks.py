@@ -364,40 +364,40 @@ def readme(c):
 
     readme = dedent(
         """
-            <div align="center">
+        <div align="center">
 
-            # {name}
+        # {name}
 
-            <br/><br/>
-            <img src="" alt="Github Header">
-            <br/><br/>
+        <br/><br/>
+        <img src="" alt="Github Header">
+        <br/><br/>
 
-            ![License][license]
-            [![Gitmoji][gitmoji-badge]][gitmoji]
+        ![License][license]
+        [![Gitmoji][gitmoji-badge]][gitmoji]
 
-            ![Last Updated][updated]
+        ![Last Updated][updated]
 
-            ![Count][count]
-            ![Contactable][contactable]
-            ![Tweeters][tweeters]
+        ![Count][count]
+        ![Contactable][contactable]
+        ![Tweeters][tweeters]
 
-            </div>
+        </div>
 
-            <br/>
+        <br/>
 
-            <div align="justify">
+        <div align="justify">
 
-            {doc}
+        {doc}
 
-            [gitmoji]: https://gitmoji.dev
-            [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
-            [count]: https://img.shields.io/badge/Astrochemists-{count}-blueviolet?style=for-the-badge
-            [updated]: https://img.shields.io/badge/Last%20Updated-{updated}-purple?style=for-the-badge
-            [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
-            [tweeters]: https://img.shields.io/badge/Tweeters-{tweeters}-blue?style=for-the-badge&logo=twitter
-            [contactable]: https://img.shields.io/badge/Contactable-{contactable}-darkgreen?style=for-the-badge&logo=gmail
+        [gitmoji]: https://gitmoji.dev
+        [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
+        [count]: https://img.shields.io/badge/Astrochemists-{count}-blueviolet?style=for-the-badge
+        [updated]: https://img.shields.io/badge/Last%20Updated-{updated}-purple?style=for-the-badge
+        [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
+        [tweeters]: https://img.shields.io/badge/Tweeters-{tweeters}-blue?style=for-the-badge&logo=twitter
+        [contactable]: https://img.shields.io/badge/Contactable-{contactable}-darkgreen?style=for-the-badge&logo=gmail
 
-            </div>
+        </div>
         """
     )
 

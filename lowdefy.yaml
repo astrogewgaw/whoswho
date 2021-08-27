@@ -5,7 +5,7 @@
 # YAML and Python files are licensed under the MIT license.
 
 name: whoswho
-lowdefy: 3.20.4
+lowdefy: 3.21.1
 licence: MIT License
 
 # Configure the web app to use "about.yaml" as the home page.

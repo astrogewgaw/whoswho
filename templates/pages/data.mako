@@ -9,8 +9,8 @@
           style:
             text-align: ${settings.txalign}
             font-family: ${settings.bdfont}
-          content: |
-            The list.
+          content:
+            _ref: content/${pgid}.md
 
       - id: table
         type: AgGridAlpine

@@ -9,17 +9,30 @@ requests:
     connectionId: edit_sheet
     properties:
       row:
-      % for field in stats.columns:
-      person_${field.lower()}:
-        _state: person_${field.lower()}
-      % endfor
+        % for field in stats.columns:
+        person_${field.lower()}:
+          _state: person_${field.lower()}
+        % endfor
 </%block>
   
 <%block name="pgbody">
+      - id: intro
+        type: Markdown
+        properties:
+          style:
+            text-align: ${settings.txalign}
+            font-family: ${settings.bdfont}
+          content:
+            _ref: content/${pgid}.md
+            
       % for field in stats.columns:
-      - id: person_${field.lower()}settings.
+      - id: person_${field.lower()}
         type: TextInput
+        % if field == "Name":
         required: true
+        % else:
+        required: false
+        % endif
         properties:
           title: ${field}
       % endfor

@@ -44,7 +44,6 @@ blocks:
           style:
             text-align: ${settings.ttalign}
             font-family: ${settings.ttfont}
-          underline: true
       </%block>
       <%block name="pgbody"/>
       <%block name="pgfoot">

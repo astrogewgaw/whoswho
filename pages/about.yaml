@@ -108,7 +108,7 @@ blocks:
             text-align: justify
             font-family: Cantarell
           content:
-            _ref: texts/about.md
+            _ref: content/about.md
 
       
       - id: footer
