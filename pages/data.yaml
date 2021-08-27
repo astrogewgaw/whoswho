@@ -64,7 +64,7 @@ blocks:
         properties:
           style:
             text-align: justify
-            font-family: Cantarell
+            font-family: Space Mono
           content:
             _ref: content/data.md
 
@@ -72,7 +72,7 @@ blocks:
         type: AgGridAlpine
         properties:
           style:
-            font-family: Cantarell
+            font-family: Space Mono
           pagination: true
           rowData:
             _ref: public/whoswho.json

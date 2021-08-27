@@ -64,7 +64,7 @@ blocks:
         properties:
           style:
             text-align: justify
-            font-family: Cantarell
+            font-family: Space Mono
           content:
             _ref: content/globe.md
 
