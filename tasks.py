@@ -369,7 +369,10 @@ def readme(c):
         # {name}
 
         <br/><br/>
-        <img src="" alt="Github Header">
+        <img
+        alt="Header Image"
+        src="https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/header.png"
+        />
         <br/><br/>
 
         ![License][license]

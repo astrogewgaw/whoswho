@@ -9,7 +9,7 @@
           content: |
             ![Github Header][header]
 
-            [header]: https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/whoswho-header.png
+            [header]: https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/header.png
 </%block>
 
 <%block name="pgbody">

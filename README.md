@@ -4,7 +4,10 @@
 # whoswho
 
 <br/><br/>
-<img src="https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/whoswho-header.png" alt="Github Header">
+<img
+alt="Header Image"
+src="https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/header.png"
+/>
 <br/><br/>
 
 ![License][license]
@@ -71,7 +74,7 @@ files andf in the web application. You can check out some stats about the databa
 by typing:
 
 ```bash
-invoke stats
+invoke statistics
 ```
 
 If you wish to update your copy of the database, just run:
@@ -91,7 +94,7 @@ invoke update
 [gitmoji]: https://gitmoji.dev
 [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
 [count]: https://img.shields.io/badge/Astrochemists-365-blueviolet?style=for-the-badge
-[updated]: https://img.shields.io/badge/Last%20Updated-Saturday%2021%20August,%202021%2007:13:09%20pm%20UTC-purple?style=for-the-badge
+[updated]: https://img.shields.io/badge/Last%20Updated-Friday%2027%20August,%202021%2002:38:14%20pm%20UTC-purple?style=for-the-badge
 [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
 [tweeters]: https://img.shields.io/badge/Tweeters-51-blue?style=for-the-badge&logo=twitter
 [contactable]: https://img.shields.io/badge/Contactable-286-darkgreen?style=for-the-badge&logo=gmail
