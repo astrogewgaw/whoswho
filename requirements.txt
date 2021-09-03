@@ -1,7 +1,7 @@
-attr
 rich
 Mako
 arrow
+attrs
 invoke
 pandas
 pyyaml
