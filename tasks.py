@@ -299,14 +299,9 @@ def update(c):
 
     with console.status(status="Updating database..."):
         path = dirs.public / "whoswho.json"
-        if path.exists():
-            time = arrow.get(path.stat().st_mtime)
-            if (arrow.now() - time).days < 7:
-                df = pd.read_csv(path.with_suffix(".csv"))
-        else:
-            df = pd.read_csv(urls.data)
-            df.to_csv(path.with_suffix(".csv"))
-            df.to_json(path, indent=4, orient="records")
+        df = pd.read_csv(urls.data)
+        df.to_csv(path.with_suffix(".csv"))
+        df.to_json(path, indent=4, orient="records")
 
 
 @task(update)
