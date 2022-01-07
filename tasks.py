@@ -366,7 +366,7 @@ def readme(c):
         <br/><br/>
         <img
         alt="Header Image"
-        src="https://raw.githubusercontent.com/astrogewgaw/logos/main/whoswho/header.png"
+        src="https://raw.githubusercontent.com/astrogewgaw/logos/main/rasters/whoswho.png"
         />
         <br/><br/>
 
