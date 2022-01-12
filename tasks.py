@@ -79,7 +79,7 @@ from rich.table import Table
 from typing import List, Union
 from rich.markdown import Markdown
 from mako.lookup import TemplateLookup  # type: ignore
-from rich.console import Console, RenderGroup
+from rich.console import Console, Group
 
 
 console = Console()
@@ -201,7 +201,7 @@ class Stats(object):
         """
 
         return Panel(
-            RenderGroup(
+            Group(
                 Panel(
                     grid,
                     title="Statistics",
