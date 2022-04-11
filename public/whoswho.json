@@ -248,6 +248,14 @@
         "Twitter":null
     },
     {
+        "Name":"Arshia Jacob",
+        "Institution":"Johns Hopkins University| ",
+        "Position":"Postdoc",
+        "Email":"ajacob51@jh.edu ",
+        "Website":null,
+        "Twitter":"ArshiaJacob"
+    },
+    {
         "Name":"Arthur Suits",
         "Institution":"University of Missouri",
         "Position":"Professor",
@@ -2553,10 +2561,10 @@
     },
     {
         "Name":"Romane Le Gal",
-        "Institution":"Harvard-Simthsonian Center for Astrophysics",
-        "Position":"Postdoc",
-        "Email":"romane.le_gal@cfa.harvard.edu",
-        "Website":"https:\/\/exoplanets.cfa.harvard.edu\/people\/romane-le-gal",
+        "Institution":"Institute of Planetology and Astrophysics of Grenoble (IPAG) \/ University Grenoble Alpes (UGA) \/ Institute of Radioastronomy Millim\u00e9trique (IRAM)",
+        "Position":"Assistant Professor\/Astronomer",
+        "Email":"romane.le-gal@univ-grenoble-alpes.fr",
+        "Website":null,
         "Twitter":"@RomaneLeGal"
     },
     {
