@@ -384,6 +384,14 @@
         "Twitter":null
     },
     {
+        "Name":"Brielle Shope",
+        "Institution":"University of Virginia",
+        "Position":"Graduate Student",
+        "Email":"bmt5hv@virginia.edu",
+        "Website":null,
+        "Twitter":null
+    },
+    {
         "Name":"Britta Redlich",
         "Institution":"Radboud University",
         "Position":"Professor",
@@ -1166,6 +1174,14 @@
         "Email":null,
         "Website":"cosmicchemist.com\/",
         "Twitter":"@HRHrodmarsson"
+    },
+    {
+        "Name":"Heloisa M. Boechat-Roberty",
+        "Institution":"Universidade Federal do Rio de Janeiro",
+        "Position":"Professor",
+        "Email":"heloisa@ov.ufrj.br",
+        "Website":null,
+        "Twitter":null
     },
     {
         "Name":"Henda Chaabouni",
@@ -2185,11 +2201,11 @@
     },
     {
         "Name":"Mihkel Kama",
-        "Institution":"Tartu Observatory",
-        "Position":"Postdoc",
-        "Email":"mihkel.kama@ut.ee",
-        "Website":"https:\/\/sisu.ut.ee\/mkama",
-        "Twitter":null
+        "Institution":"University College London",
+        "Position":"Assistant Professor",
+        "Email":"m.kama@ucl.ac.uk",
+        "Website":"https:\/\/www.ucl.ac.uk\/astrophysics\/people\/mihkel-kama",
+        "Twitter":"@kamatahvel"
     },
     {
         "Name":"Milan Sil",
@@ -2865,10 +2881,10 @@
     },
     {
         "Name":"Susanna Widicus Weaver",
-        "Institution":"Emory University",
-        "Position":"Associate Professor",
-        "Email":"susanna.widicus.weaver@emory.edu",
-        "Website":"http:\/\/chemistry.emory.edu\/faculty\/widicusweaver\/susanna.html",
+        "Institution":"University of Wisconsin-Madison",
+        "Position":"Vozza Professor of Chemistry and Astronomy",
+        "Email":"slww@chem.wisc.edu",
+        "Website":"https:\/\/widicusweaver.chem.wisc.edu\/",
         "Twitter":null
     },
     {
