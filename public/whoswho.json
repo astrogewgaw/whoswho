@@ -328,10 +328,26 @@
         "Twitter":null
     },
     {
+        "Name":"Basmah Riaz",
+        "Institution":"Universit\u00e4ts-Sternwarte M\u00fcnchen",
+        "Position":"Research Fellow",
+        "Email":"basriaz@gmail.com",
+        "Website":null,
+        "Twitter":null
+    },
+    {
         "Name":"Bea Baharier",
         "Institution":null,
         "Position":null,
         "Email":null,
+        "Website":null,
+        "Twitter":null
+    },
+    {
+        "Name":"Beatrice Kulterer",
+        "Institution":"Center for Space and Habitability, University Bern",
+        "Position":"PhD candidate",
+        "Email":"beatricekulterer@gmail.com",
         "Website":null,
         "Twitter":null
     },
@@ -2216,6 +2232,14 @@
         "Twitter":null
     },
     {
+        "Name":"Milan Sil",
+        "Institution":"Satyendra Nath Bose National Centre for Basic Sciences",
+        "Position":"Postdoc",
+        "Email":"milansil93@gmail.com",
+        "Website":null,
+        "Twitter":null
+    },
+    {
         "Name":"Mirahmad Haghi",
         "Institution":null,
         "Position":null,
@@ -2300,6 +2324,14 @@
         "Institution":"University of Concepci\u00f3n",
         "Position":"Grad",
         "Email":null,
+        "Website":null,
+        "Twitter":null
+    },
+    {
+        "Name":"Niels F.W. Ligterink",
+        "Institution":"Space Research & Planetary Sciences division, University of Bern",
+        "Position":"Research fellow",
+        "Email":"nielsligterink@unibe.ch",
         "Website":null,
         "Twitter":null
     },
