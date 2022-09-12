@@ -1153,10 +1153,10 @@
     },
     {
         "Name":"Hayley Bunn",
-        "Institution":"Emory University",
-        "Position":"Grad",
-        "Email":"hbunn@emory.edu",
-        "Website":"http:\/\/chemistry.emory.edu\/faculty\/widicusweaver\/hayley.html",
+        "Institution":"Max Planck Institute for Extraterrestrial Physics",
+        "Position":"Post Doc",
+        "Email":"hbunn@mpe.mpg.de",
+        "Website":null,
         "Twitter":"@BunnHayley"
     },
     {
@@ -1945,11 +1945,11 @@
     },
     {
         "Name":"Marie Van de Sande",
-        "Institution":"KU Leuven",
-        "Position":"Postdoc",
-        "Email":"marie.vandesande@kuleuven.be",
-        "Website":"https:\/\/www.kuleuven.be\/wieiswie\/en\/person\/00098933",
-        "Twitter":"@marievdsande"
+        "Institution":"University of Leeds",
+        "Position":null,
+        "Email":"m.vandesande@leeds.ac.uk",
+        "Website":"https:\/\/marievds.github.io\/",
+        "Twitter":"https:\/\/twitter.com\/marievdsande"
     },
     {
         "Name":"Marin Chabot",
@@ -2225,19 +2225,11 @@
     },
     {
         "Name":"Milan Sil",
-        "Institution":null,
-        "Position":null,
-        "Email":null,
-        "Website":null,
-        "Twitter":null
-    },
-    {
-        "Name":"Milan Sil",
         "Institution":"Satyendra Nath Bose National Centre for Basic Sciences",
         "Position":"Postdoc",
         "Email":"milansil93@gmail.com",
         "Website":null,
-        "Twitter":null
+        "Twitter":"@SilMILAN"
     },
     {
         "Name":"Mirahmad Haghi",
@@ -2332,8 +2324,8 @@
         "Institution":"Space Research & Planetary Sciences division, University of Bern",
         "Position":"Research fellow",
         "Email":"nielsligterink@unibe.ch",
-        "Website":null,
-        "Twitter":null
+        "Website":"www.nielsligterink.nl",
+        "Twitter":"@NielsLigterink"
     },
     {
         "Name":"Nienke van der Marel",
@@ -3097,10 +3089,10 @@
     },
     {
         "Name":"Veronica Allen",
-        "Institution":"NASA Goddard Flight Center",
-        "Position":"Postdoc",
+        "Institution":"Kapteyn Astronomical Institute, University of Groningen",
+        "Position":"Postdoc Fellow",
         "Email":"allen@astro.rug.nl",
-        "Website":"http:\/\/www.astro.rug.nl\/~allen\/",
+        "Website":"AstrochemistVeronica.com",
         "Twitter":"@Ver0ism"
     },
     {

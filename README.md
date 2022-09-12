@@ -93,10 +93,10 @@ invoke update
 
 [gitmoji]: https://gitmoji.dev
 [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
-[count]: https://img.shields.io/badge/Astrochemists-402-blueviolet?style=for-the-badge
-[updated]: https://img.shields.io/badge/Last%20Updated-Monday%2005%20September,%202022%2002:30:47%20am%20UTC-purple?style=for-the-badge
+[count]: https://img.shields.io/badge/Astrochemists-401-blueviolet?style=for-the-badge
+[updated]: https://img.shields.io/badge/Last%20Updated-Monday%2012%20September,%202022%2002:40:26%20am%20UTC-purple?style=for-the-badge
 [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
-[tweeters]: https://img.shields.io/badge/Tweeters-53-blue?style=for-the-badge&logo=twitter
+[tweeters]: https://img.shields.io/badge/Tweeters-55-blue?style=for-the-badge&logo=twitter
 [contactable]: https://img.shields.io/badge/Contactable-296-darkgreen?style=for-the-badge&logo=gmail
 
 </div>
