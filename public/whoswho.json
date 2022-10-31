@@ -72,6 +72,14 @@
         "Twitter":null
     },
     {
+        "Name":"Alexandre Bergantini ",
+        "Institution":"Federal Center for Technological Education of Rio de Janeiro (CEFET-RJ)",
+        "Position":"Associate Professor",
+        "Email":"alexandre.souza@cefet-rj.br",
+        "Website":"https:\/\/bergantini.wordpress.com\/",
+        "Twitter":null
+    },
+    {
         "Name":"Alexandre Faure",
         "Institution":"Institut de Plan\u00e9tologie et d\u2019Astrophysique de Grenoble (IPAG)",
         "Position":"CNRS Research Director",
@@ -768,10 +776,10 @@
         "Twitter":null
     },
     {
-        "Name":"Dipen Sahu",
-        "Institution":null,
-        "Position":null,
-        "Email":null,
+        "Name":"Dipen Sahu ",
+        "Institution":"Physical Research Laboratory, India",
+        "Position":"Ramanujan Faculty Fellow ",
+        "Email":"dsahu@prl.res.in, dipenthink@gmail.com",
         "Website":null,
         "Twitter":null
     },
