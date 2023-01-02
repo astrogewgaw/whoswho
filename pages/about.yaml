@@ -90,7 +90,7 @@ blocks:
             [count]: https://img.shields.io/badge/Astrochemists-402-blueviolet?style=for-the-badge
             [tweeters]: https://img.shields.io/badge/Tweeters-55-blue?style=for-the-badge&logo=twitter            
             [contactable]: https://img.shields.io/badge/Contactable-298-darkgreen?style=for-the-badge
-            [updated]: https://img.shields.io/badge/Last%20Updated-Monday%2026%20December,%202022%2001:34:28%20am%20UTC-purple?style=for-the-badge
+            [updated]: https://img.shields.io/badge/Last%20Updated-Monday%2002%20January,%202023%2001:34:17%20am%20UTC-purple?style=for-the-badge
       
       - id: subtitle
         type: Title
@@ -119,6 +119,6 @@ blocks:
           skipHtml: true
           content: |
             
-            Copyright &#xa9; 2022 Ujjwal Panda
+            Copyright &#xa9; 2023 Ujjwal Panda
       
   
