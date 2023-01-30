@@ -94,7 +94,7 @@ invoke update
 [gitmoji]: https://gitmoji.dev
 [license]: https://img.shields.io/github/license/astrogewgaw/whoswho?style=for-the-badge
 [count]: https://img.shields.io/badge/Astrochemists-402-blueviolet?style=for-the-badge
-[updated]: https://img.shields.io/badge/Last%20Updated-Monday%2023%20January,%202023%2001:37:03%20am%20UTC-purple?style=for-the-badge
+[updated]: https://img.shields.io/badge/Last%20Updated-Monday%2030%20January,%202023%2001:33:57%20am%20UTC-purple?style=for-the-badge
 [gitmoji-badge]: https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge
 [tweeters]: https://img.shields.io/badge/Tweeters-55-blue?style=for-the-badge&logo=twitter
 [contactable]: https://img.shields.io/badge/Contactable-298-darkgreen?style=for-the-badge&logo=gmail
