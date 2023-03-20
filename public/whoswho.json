@@ -24,6 +24,14 @@
         "Twitter":null
     },
     {
+        "Name":"Akant Vats",
+        "Institution":"Banaras Hindu University, India",
+        "Position":"Research Scholar",
+        "Email":"akantvats.bhu@gmail.com",
+        "Website":null,
+        "Twitter":null
+    },
+    {
         "Name":"Alec Kroll",
         "Institution":"Emory University",
         "Position":"Postdoc",
@@ -221,6 +229,14 @@
         "Position":"Associate Professor",
         "Email":"anouk.rijs@ru.nl",
         "Website":"https:\/\/www.ru.nl\/english\/people\/rijs-a\/",
+        "Twitter":null
+    },
+    {
+        "Name":"Anshika Pandey",
+        "Institution":"Banaras Hindu University, India",
+        "Position":"Research Scholar",
+        "Email":"3anshika.1@gmail.com",
+        "Website":null,
         "Twitter":null
     },
     {
@@ -2680,6 +2696,14 @@
         "Twitter":null
     },
     {
+        "Name":"Satyam Srivastav",
+        "Institution":"Banaras Hindu University, India",
+        "Position":"Research Scholar",
+        "Email":"satyamsrivastavbhu@gmail.com",
+        "Website":null,
+        "Twitter":null
+    },
+    {
         "Name":"Sebastiaan Krijt",
         "Institution":null,
         "Position":null,
@@ -3056,14 +3080,6 @@
         "Twitter":null
     },
     {
-        "Name":"Ujjwal Panda",
-        "Institution":"National Centre for Radio Astrophysics",
-        "Position":"Grad",
-        "Email":"ujjwalpanda97@gmail.com",
-        "Website":"https:\/\/astrogewgaw.com\/",
-        "Twitter":"@astrogewgaw"
-    },
-    {
         "Name":"\u00dcmit Kavak",
         "Institution":null,
         "Position":null,
@@ -3109,6 +3125,14 @@
         "Position":"Grad",
         "Email":"v.plomp@science.ru.nl",
         "Website":null,
+        "Twitter":null
+    },
+    {
+        "Name":"Vincent Deguin",
+        "Institution":"The Open University",
+        "Position":"Grad",
+        "Email":"vincent.deguin@open.ac.uk",
+        "Website":"https:\/\/deugz.github.io\/nb-master\/_build\/html\/intro.html",
         "Twitter":null
     },
     {
