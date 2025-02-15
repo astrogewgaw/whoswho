@@ -42,9 +42,9 @@
     {
         "Name":"Alessandra Candian",
         "Institution":"University of Amsterdam",
-        "Position":"Research Fellow",
-        "Email":"a.candian@uva.nl",
-        "Website":"https:\/\/alessandracandian.wixsite.com\/alessandra",
+        "Position":"Assistant Professor",
+        "Email":"a.candian2@uva.nl",
+        "Website":"https:\/\/www.uva.nl\/profiel\/c\/a\/a.candian\/a.candian.html",
         "Twitter":"@donnainfiorino"
     },
     {
@@ -393,9 +393,9 @@
     },
     {
         "Name":"Brandt A. L. Gaches",
-        "Institution":"I. Physikalisches Institut, Universit\u00e4t zu K\u00f6ln",
-        "Position":"Postdoc",
-        "Email":"gaches@ph1.uni-koeln.de",
+        "Institution":"Chalmers University of Technology",
+        "Position":"Cosmic Origins Fellow",
+        "Email":"brandt.gaches@chalmers.se",
         "Website":"http:\/\/brandt-gaches.space\/",
         "Twitter":null
     },
@@ -1666,8 +1666,8 @@
     {
         "Name":"Kevin M. Hickson",
         "Institution":"University of Bordeaux",
-        "Position":null,
-        "Email":null,
+        "Position":"Senior Scientist",
+        "Email":"kevin.hickson@u-bordeaux.fr",
         "Website":"https:\/\/www.ism.u-bordeaux.fr\/spip.php?auteur217",
         "Twitter":null
     },
@@ -2640,12 +2640,12 @@
         "Twitter":null
     },
     {
-        "Name":"Ryan C Fortenberry",
-        "Institution":"The University of Mississippi",
-        "Position":"Assistant Professor",
+        "Name":"Ryan C. Fortenberry",
+        "Institution":"University of Mississippi",
+        "Position":"Associate Professor",
         "Email":"r410@olemiss.edu",
-        "Website":"https:\/\/chemistry.olemiss.edu\/ryan-fortenberry\/",
-        "Twitter":null
+        "Website":"https:\/\/r410berry.com\/",
+        "Twitter":"@UMAstroChem"
     },
     {
         "Name":"Sacha Gvn",
